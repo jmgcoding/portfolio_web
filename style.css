@@ -367,8 +367,7 @@ nav {
   letter-spacing: 0.06em;
   padding: 3px 7px;
   text-transform: uppercase;
-  mix-blend-mode: normal;
-  filter: saturate(1.2);
+  filter: sepia(0) saturate(2);
 }
 
 .badge-inv       { background: #f8d9d4; color: #9d2f20; }
@@ -624,16 +623,6 @@ nav {
   gap: 0.55rem;
 }
 
-.panel-text-main .panel-text:last-child {
-  margin-top: 0.1rem;
-  padding-top: 0.55rem;
-  border-top: 1px dashed var(--rule);
-  font-family: var(--mono);
-  font-size: 11px;
-  line-height: 1.6;
-  color: var(--ink-faint);
-}
-
 .panel-bottom {
   border-top: none;
   padding-top: 0;
@@ -652,7 +641,9 @@ nav {
   line-height: 1.6;
   color: var(--ink-faint);
   flex: 1 1 320px;
-  padding-top: 0.15rem;
+  border-top: 1px dashed var(--rule);
+  padding-top: 0.55rem;
+  margin-top: 0.1rem;
 }
 
 .contrib-chips {
