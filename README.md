@@ -17,8 +17,6 @@ Sitio web personal estatico para publicar en GitHub Pages.
 
 ## Checklist antes de publicar
 
-- Sustituir el correo provisional (`contacto@ejemplo.com`) por el real.
-- Sustituir URLs reales de LinkedIn/X/Bluesky en `index.html`.
 - Verificar que los enlaces de articulos en `trabajo.html` abren correctamente.
 - Revisar visualizacion en movil y escritorio.
 

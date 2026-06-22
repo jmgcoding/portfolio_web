@@ -30,10 +30,10 @@
   </div>
   <div class="timeline-filters article-filterbar" id="article-filters">
     <button class="filter-btn active" data-filter="all">Todos</button>
-    <button class="filter-btn" data-filter="investigacion">Investigación</button>
-    <button class="filter-btn" data-filter="datos">Datos</button>
     <button class="filter-btn" data-filter="desinfo">Desinformación</button>
+    <button class="filter-btn" data-filter="datos">Datos</button>
     <button class="filter-btn" data-filter="verificacion">Verificación</button>
+    <button class="filter-btn" data-filter="contexto">Contexto</button>
   </div>
 </div>
 
@@ -46,209 +46,257 @@
       <div class="timeline-year">2025</div>
       <div class="year-articles">
 
-        <div class="article-card-exp" data-type="desinfo" id="a-pensionista">
+        <div class="article-card-exp" data-categories="desinfo verificacion datos" id="a-pensionista">
           <div class="card-top">
             <div>
               <div class="article-meta">
                 <span class="badge badge-desinfo">Desinformación</span>
-                <span class="article-date">Sep 2025</span>
-              </div>
-              <div class="article-title">«¡Alarma, pensionista!»: canales de YouTube que desinforman sobre jubilaciones</div>
-            </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
-          </div>
-          <div class="card-panel">
-            <div class="panel-text-main">
-              <p class="panel-text">Detecté vídeos con aspecto de generados por IA posicionándose entre los contenidos sobre pensiones. Me pregunté si era un fenómeno puntual o algo más amplio y coordinado. Hice una búsqueda iterativa de canales similares y analicé sus fechas de publicación. Varios canales comenzaban a publicar contenido en español en las mismas fechas, lo que apuntaba a una actuación coordinada. Verifiqué los datos de pensiones que citaban.</p>
-            </div>
-            <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Rastreo e identificación</span>
-                  <span class="contrib-chip">Análisis de patrones temporales</span>
-                  <span class="contrib-chip">Verificación de datos</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditobulo/20250908/alarma-pensionista-youtube-canales/" target="_blank" class="card-read-link">Leer artículo →</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="article-card-exp" data-type="verificacion" id="a-olivos">
-          <div class="card-top">
-            <div>
-              <div class="article-meta">
                 <span class="badge badge-verificacion">Verificación</span>
-                <span class="article-date">Oct 2025</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Septiembre 2025</span>
               </div>
-              <div class="article-title">Fotovoltaica sobre olivares: verificación con satélite e imágenes históricas</div>
+              <div class="article-title">&quot;¡Alarma, pensionista!&quot;: cuidado con los canales de YouTube que publican vídeos para alertar, desinformar y confundir sobre las pensiones de jubilación</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">Un vídeo viral atribuía la destrucción de olivares a una planta fotovoltaica. Las imágenes generaban narrativas sobre el impacto de las renovables en el sector primario. Era necesario contrastar la naturaleza real del suelo. Comparé la extensión del parque con los archivos del proyecto, los registros agrícolas de las parcelas en catastro y el plan general de ordenación municipal. Revisé también el tendido eléctrico completo mediante imágenes satelitales para comprobar la afectación real a los cultivos.</p>
+              <p class="panel-text">Detectamos muchos vídeos de IA posicionándose entre los contenidos sobre pensiones. Hicimos una búsqueda de este tipo de canales de YouTube y analizamos sus metadatos. Varios de ellos empezaban de forma coordinada a publicar vídeos en español con mensajes de alerta para jubilados y pensionistas y desinformativos a veces.</p>
+              <p class="panel-text">rastreo de redes, análisis de datos, OSINT, visualización</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Geolocalización</span>
-                  <span class="contrib-chip">Imágenes satélite</span>
-                  <span class="contrib-chip">Registros administrativos</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditobulo/20251028/fotovoltaica-olivos-granada-caceres/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <a href="https://maldita.es/malditobulo/20250908/alarma-pensionista-youtube-canales/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
 
-        <div class="article-card-exp" data-type="investigacion" id="a-telegram">
-          <div class="card-top">
-            <div>
-              <div class="article-meta">
-                <span class="badge badge-inv">Investigación</span>
-                <span class="article-date">Jul 2025</span>
-              </div>
-              <div class="article-title">Un tercio de su contenido acaba en Pravda: cómo funcionan los canales de Telegram de la red rusa</div>
-            </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
-          </div>
-          <div class="card-panel">
-            <div class="panel-text-main">
-              <p class="panel-text">Tras analizar la red Pravda, vi que enlazaba constantemente a canales de Telegram. Quería comprobar si existían canales produciendo contenido específicamente para ser replicado por esa plataforma, lo que indicaría un flujo de desinformación deliberado y estructurado. Analicé los canales más referenciados y calculé qué porcentaje de sus mensajes terminaba en Pravda y el tiempo medio desde publicación hasta réplica. Identifiqué también relaciones entre canales y rastreé su financiación a través de criptomonedas, encontrando perfiles vinculados a España.</p>
-            </div>
-            <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Análisis de redes Telegram</span>
-                  <span class="contrib-chip">Rastreo de financiación</span>
-                  <span class="contrib-chip">Redacción y gráficos</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/investigaciones/20250710/canales-telegram-pravda/" target="_blank" class="card-read-link">Leer artículo →</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="article-card-exp" data-type="investigacion" id="a-pravda">
-          <div class="card-top">
-            <div>
-              <div class="article-meta">
-                <span class="badge badge-inv">Investigación</span>
-                <span class="article-date">May 2025</span>
-              </div>
-              <div class="article-title">150.000 publicaciones de Pravda en español: picos de desinformación rusa en momentos de crisis</div>
-            </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
-          </div>
-          <div class="card-panel">
-            <div class="panel-text-main">
-              <p class="panel-text">Queríamos entender a qué ritmo opera la red Pravda en español y si intensificaba su actividad ante eventos de crisis nacionales. El apagón del 28 de abril de 2025 fue el caso de estudio ideal: una crisis en tiempo real con amplia cobertura desinformadora. Scrapé cerca de 150.000 publicaciones y construí la base de datos. Hice análisis NLP de texto para identificar evolución temática y comparé los resultados con otras investigaciones sobre la red. El análisis minuto a minuto del día del apagón permitió reconstruir cómo se difundió la desinformación.</p>
-            </div>
-            <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Scraping y base de datos</span>
-                  <span class="contrib-chip">Análisis NLP</span>
-                  <span class="contrib-chip">Redacción y gráficos</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/investigaciones/20250530/pravda-news-espanol-espana/" target="_blank" class="card-read-link">Leer artículo →</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="article-card-exp" data-type="verificacion" id="a-china">
-          <div class="card-top">
-            <div>
-              <div class="article-meta">
-                <span class="badge badge-verificacion">Verificación</span>
-                <span class="article-date">May 2025</span>
-              </div>
-              <div class="article-title">La montaña con placas solares «de España» era de China, según imágenes de un blog de puentes de 2009</div>
-            </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
-          </div>
-          <div class="card-panel">
-            <div class="panel-text-main">
-              <p class="panel-text">Un vídeo viral mostraba un paisaje con placas solares que se decía era de España. Las formas del terreno y la vegetación no cuadraban con ninguna zona conocida. La narrativa servía para amplificar el supuesto impacto de las renovables. Usé una VPN para buscar el vídeo en Douyin (TikTok chino) y lo localicé en un blog especializado en puentes de 2009. Para geolocalizarlo exactamente, recurrí al satélite de Baidu, ya que Google Maps no mostraba las placas fotovoltaicas en esa zona de China.</p>
-            </div>
-            <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">OSINT con VPN</span>
-                  <span class="contrib-chip">Geolocalización satélite Baidu</span>
-                  <span class="contrib-chip">Rastreo de origen</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditobulo/20250523/montana-placas-solares-china/" target="_blank" class="card-read-link">Leer artículo →</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="article-card-exp" data-type="desinfo" id="a-apagon">
+        <div class="article-card-exp" data-categories="desinfo verificacion" id="a-tarifa">
           <div class="card-top">
             <div>
               <div class="article-meta">
                 <span class="badge badge-desinfo">Desinformación</span>
-                <span class="article-date">May 2025</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="article-date">Agosto 2025</span>
               </div>
-              <div class="article-title">La desinformación sobre el apagón dio la vuelta al mundo</div>
+              <div class="article-title">Qué sabemos sobre los proyectos urbanísticos en las zonas afectadas por los incendios en Tarifa (Cádiz)</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">El apagón del 28 de abril fue un evento de crisis en tiempo real que generó desinformación masiva en varios idiomas simultáneamente. Era la oportunidad de documentar el ecosistema desinformador funcionando a plena velocidad. Rastreamos en tiempo real las desinformaciones en distintos idiomas para trazar su origen. Cuantificamos el alcance en X e identificamos que la primera recurrencia de varios bulos provenía del canal estatal chino CGTN, lo que indica una coordinación transnacional.</p>
+              <p class="panel-text">Un vídeo viral especulaba que los incendios forestales de Cádiz buscaban recalificar terrenos para beneficiar proyectos urbanísticos. Contrastamos los datos geoespaciales de los incendios con los planes municipales y las parcelas del catastro y la extensión del Parque Natural del Estrecho. Comprobamos la naturaleza del suelo afectado y entrevistamos al ayuntamiento, promotores y expertos urbanísticos.</p>
+              <p class="panel-text">geolocalización, OSINT, fuentes humanas, análisis normativo</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Rastreo de origen</span>
-                  <span class="contrib-chip">Análisis de alcance</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditobulo/20250507/apagon-internacional-desinformacion/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <a href="https://maldita.es/malditobulo/20250822/incendio-tarifa-proyectos-urbanisticos/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
 
-        <div class="article-card-exp" data-type="verificacion" id="a-tarifa">
+        <div class="article-card-exp" data-categories="contexto" id="a-agrovoltaica">
           <div class="card-top">
             <div>
               <div class="article-meta">
-                <span class="badge badge-verificacion">Verificación</span>
-                <span class="article-date">Ago 2025</span>
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Julio 2025</span>
               </div>
-              <div class="article-title">¿Los incendios de Tarifa para favorecer urbanizaciones? Lo que dicen EFFIS, el Catastro y los expertos</div>
+              <div class="article-title">Situación de la agrovoltaica en España: proyectos y principales barreras para su implantación</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">La narrativa de «incendios intencionados para recalificar suelo» circuló con fuerza y tenía impacto político. Era una afirmación específica y verificable: o el incendio afectaba a las parcelas de esas urbanizaciones o no. Comparé la extensión del incendio (datos EFFIS) con las parcelas de las urbanizaciones (Catastro y plan general de ordenación municipal) y con el Parque Natural del Estrecho. Hablé con el ayuntamiento de Tarifa, la promotora inmobiliaria, un excalcalde y un experto en urbanismo.</p>
+              <p class="panel-text">Apenas se había cubierto la situación normativa de esta solución para el sector primario, que combina placas fotovoltaicas y cultivos. Intentamos poner sobre la mesa este tema analizando informes técnicos y entrevistando a diversos expertos para explicar las tipologías en España y los motivos de la lenta implantación.</p>
+              <p class="panel-text">análisis normativo, fuentes humanas</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Geolocalización y cruce cartográfico</span>
-                  <span class="contrib-chip">Fuentes humanas</span>
-                  <span class="contrib-chip">Registros administrativos</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
+              <a href="https://maldita.es/clima/20250703/agrovoltaica-placas-solares-agricultura-espana/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="desinfo verificacion" id="a-china">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="article-date">Julio 2025</span>
               </div>
-              <a href="https://maldita.es/malditobulo/20250822/incendio-tarifa-proyectos-urbanisticos/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <div class="article-title">Cuidado con este vídeo de una montaña cubierta por placas solares en China que circula descontextualizado en España y otros países</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Este vídeo circulaba sin ningún contexto atribuido a varios países. Para verificar visualmente su localización cruzamos imágenes de un blog especializado en puentes de 2009 y recurrimos a las imágenes de satélite del proveedor chino Baidu para encontrar el punto exacto de filmación. A través de una VPN conseguimos localizar el vídeo original en Douyin (la marca china de TikTok).</p>
+              <p class="panel-text">rastreo en redes, verificación visual, hemeroteca, OSINT</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditobulo/20250523/montana-placas-solares-china/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="desinfo verificacion" id="a-olivos">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="article-date">Junio 2025</span>
+              </div>
+              <div class="article-title">Esta planta fotovoltaica no destruyó un &quot;enorme olivar&quot; en Granada: es Cáceres y se quitaron un máximo de 16 olivos</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Rastreamos el origen de un vídeo en redes sociales para demostrar la ubicación real de una planta fotovoltaica y saber si su construcción había afectado a los cultivos de la zona. Recurrimos a imágenes satelitales históricas, los archivos del proyecto y revisamos los registros administrativos agrícolas, así como toda la trayectoria del tendido eléctrico desde la planta a la subestación.</p>
+              <p class="panel-text">OSINT, verificación visual, análisis normativo</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditobulo/20251028/fotovoltaica-olivos-granada-caceres/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="desinfo datos" id="a-pravda-pair">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Mayo 2025</span>
+              </div>
+              <div class="article-title">Historia de la expansión de la red rusa Pravda en España: más de 150.000 publicaciones alcanzando sus máximos picos en eventos como el apagón o el asesinato de Portnov</div>
+              <div class="article-title">Un tercio de su contenido acaba en Pravda: cómo funcionan los canales de Telegram que alimentan a la red rusa en español</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Queríamos comprender cómo la red de influencia rusa Pravda instrumentaliza crisis nacionales para propagar narrativas de caos y desinformación. Para ello, scrapeamos cerca de 150.000 publicaciones y cruzamos los picos de publicaciones con diversos hitos informativos. Realizamos un estudio de caso minuto a minuto durante el apagón del 28 de abril de 2025 y aplicamos técnicas de procesamiento del lenguaje natural (NLP) para mapear la evolución temática del discurso.</p>
+              <p class="panel-text">También analizamos la red de canales satélite de Telegram descargando sus mensajes para medir los porcentajes de réplica y los tiempos de difusión. Detectamos comunidades entre los canales y analizamos los métodos de financiación de algunos de ellos.</p>
+              <p class="panel-text">rastreo de redes, web scraping, análisis de datos, NLP, visualización</p>
+            </div>
+            <div class="panel-bottom">
+              <div class="panel-links-group">
+                <a href="https://maldita.es/investigaciones/20250530/pravda-news-espanol-espana/" target="_blank" class="card-read-link">Artículo 1 →</a>
+                <a href="https://maldita.es/investigaciones/20250710/canales-telegram-pravda/" target="_blank" class="card-read-link">Artículo 2 →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="desinfo datos" id="a-apagon">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Mayo 2025</span>
+              </div>
+              <div class="article-title">La desinformación sobre el apagón dio la vuelta al mundo: medios suplantados, fenómenos atmosféricos raros y redes rusas</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Rastreamos el origen y el alcance de diferentes desinformaciones del apagón del 28 de abril de 2025 en redes sociales. La primera recurrencia encontrada de algunos de ellos fue el canal chino CGTN.</p>
+              <p class="panel-text">rastreo en redes, OSINT</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditobulo/20250507/apagon-internacional-desinformacion/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="contexto" id="a-pais-origen">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Abril 2025</span>
+              </div>
+              <div class="article-title">País de origen: cuándo es obligatorio que se incluya en la etiqueta de un alimento</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">¿Por qué es obligatorio que las patatas frescas tengan su país de origen en la etiqueta pero en una bolsa de patatas fritas esta información no se incluye? Estudié la normativa europea y consulté a varios expertos para aclarar qué alimentos están obligados a declarar su procedencia. Cuando son alimentos importados y procesados el origen se convierte además en un cálculo aduanero.</p>
+              <p class="panel-text">normativa, fuentes humanas</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/alimentacion/20250415/pais-origen-alimentos-obligatorio/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="desinfo datos" id="a-oms-carne">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Marzo 2025</span>
+              </div>
+              <div class="article-title">Cronología de una desinformación: desde &quot;la OMS prohíbe la carne&quot; hasta una &quot;guerra contra la agricultura&quot;</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Rastreamos el origen de dos bulos que afirman que las élites mundiales quieren prohibir el consumo de carne. La investigación llevó a webs sospechosas cuyos contenidos son amplificados en redes sociales por perfiles con un gran alcance y en multitud de idiomas. Son cuentas que saltan de un tema a otro (como la migración o las políticas LGTBI) para generar polarización y desinformación en el debate digital.</p>
+              <p class="panel-text">rastreo RRSS, mapeo difusión, análisis narrativas desinformadoras, operaciones de influencia</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditobulo/20250328/oms-carne-guerra-agricultura-desinformacion/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="contexto" id="a-temporada-naranjas">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Febrero 2025</span>
+              </div>
+              <div class="article-title">Naranjas en agosto y uvas en abril: qué significa que una fruta o verdura sea o no de temporada</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Intentamos comer productos de temporada porque son más baratos y es más sostenible, pero ¿hay algún calendario bueno? Uno dice que los tomates son de verano, pero otros dicen que son de todo el año. Busqué muchos calendarios, los contrasté entre ellos y consulté a numerosos expertos. En conclusión, no hay una definición oficial de producto de temporada y hay mucho debate sobre el tema.</p>
+              <p class="panel-text">normativa, fuentes humanas</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditateexplica/20250218/frutas-verduras-temporada-significado/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos" id="a-temporada-provincia">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Febrero 2025</span>
+              </div>
+              <div class="article-title">Consulta qué frutas y verduras están de temporada en tu provincia</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Hay muchos calendarios de consumo de temporada por internet, pero pocos datos y ausencia de metodología. Analicé y procesé con programación los del Calendario de Siembra, Recolección y Comercialización del Ministerio de Agricultura de España para hacer unos gráficos informativos por productos y provincias. También hicimos un ranking de los más cultivados en invernadero.</p>
+              <p class="panel-text">análisis avanzado, visualización</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditodato/20250218/consulta-frutas-verduras-temporada/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
@@ -261,71 +309,161 @@
       <div class="timeline-year">2024</div>
       <div class="year-articles">
 
-        <div class="article-card-exp" data-type="investigacion" id="a-electoral">
+        <div class="article-card-exp" data-categories="datos desinfo" id="a-electoral-tipologia">
           <div class="card-top">
             <div>
               <div class="article-meta">
-                <span class="badge badge-inv">Investigación</span>
-                <span class="article-date">Jul 2024</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="article-date">Julio 2024</span>
               </div>
-              <div class="article-title">Tipología de la desinformación electoral: de desacreditar el voto a sembrar dudas sobre el recuento</div>
+              <div class="article-title">De desacreditar el voto a sembrar dudas sobre el recuento: la desinformación contra las instituciones en un año superelectoral en España</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">Después de años siguiendo la desinformación electoral, detecté patrones recurrentes que nunca se habían sistematizado. En las europeas de 2024 apareció un bulo nuevo: que las actas electorales habían sido modificadas para beneficiar a Junts. Era una afirmación analizable con datos. Para el bulo de las actas, hice un análisis a gran escala para detectar valores anómalos en los resultados. Revisé resoluciones electorales y consulté a expertos, que señalaron que los errores en actas son un escenario ya contemplado en nuestro sistema electoral. La clasificación tipológica se construyó a partir de los casos acumulados en 7 años.</p>
+              <p class="panel-text">Después de años viendo desinformaciones sobre las elecciones que cuestionan la integridad del proceso o tratan de incidir en el voto, intentamos diseñar una tipología o una clasificación de este tipo de contenido.</p>
+              <p class="panel-text">Después de años viendo desinformaciones sobre los procesos electorales diseñamos una tipología para los contenidos que hablan de pucherazo, cuestionan la integridad electoral o tratan de incidir en el voto.</p>
+              <p class="panel-text">metodología y clasificación, análisis de datos, visualización</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Análisis estadístico de actas</span>
-                  <span class="contrib-chip">Clasificación tipológica</span>
-                  <span class="contrib-chip">Fuentes expertas</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditodato/20240703/integridad-electoral-elecciones-europeas-efcsn/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <a href="https://maldita.es/malditodato/20240703/integridad-electoral-elecciones-europeas-efcsn/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
 
-        <div class="article-card-exp" data-type="datos" id="a-votaciones">
+        <div class="article-card-exp" data-categories="datos desinfo verificacion contexto" id="a-junts-actas">
           <div class="card-top">
             <div>
               <div class="article-meta">
                 <span class="badge badge-datos">Datos</span>
-                <span class="article-date">Jun 2024</span>
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Junio 2024</span>
               </div>
-              <div class="article-title">¿PP y PSOE siempre votan igual en el Parlamento Europeo? Los datos de cinco años de votaciones</div>
+              <div class="article-title">No es solo Junts: las posibles anomalías en cientos de mesas son marginales y no influyen en los resultados definitivos de las europeas</div>
+              <div class="article-title">Los errores en las actas electorales: ¿se pueden corregir?</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">El debate sobre si PP y PSOE «pactan en Europa» circula en contextos electorales sin datos que lo respalden o desmientan. Los datos de votaciones del PE son públicos y nunca habían sido explotados sistemáticamente para el caso español. Descargué y analicé el histórico completo de votaciones nominales del Parlamento Europeo para los eurodiputados españoles, calculando tasas de coincidencia por partido y grupo parlamentario a lo largo de toda la legislatura.</p>
+              <p class="panel-text">La desinformación electoral me parece una de las más interesantes, porque es un ejemplo evidente de campañas previsibles que tratan de incidir directamente en la política. Tas las europeas de 2024 se decía que las actas electorales estaban siendo modificadas para beneficiar a Junts. Hicimos un análisis a gran escala para detectar estos valores anómalos, que parecían errores humanos.</p>
+              <p class="panel-text">También quisimos dar un contexto sólido y revisamos las resoluciones de las Juntas Electorales y consultamos a expertos en la materia para dejar claro que los errores son escenarios ordinarios y corregibles por las garantías del sistema.</p>
+              <p class="panel-text">análisis de datos, detección de anomalías, análisis normativo, fuentes humanas</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Extracción y análisis de datos</span>
-                  <span class="contrib-chip">Visualización</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
+              <div class="panel-links-group">
+                <a href="https://maldita.es/malditateexplica/20240614/recuento-mesas-electorales-anomalias-europeas/" target="_blank" class="card-read-link">Artículo 1 →</a>
+                <a href="https://maldita.es/malditateexplica/20240617/errores-actas-mesas-electorales/" target="_blank" class="card-read-link">Artículo 2 →</a>
               </div>
-              <a href="https://maldita.es/malditodato/20240606/votaciones-diputados-espanoles-parlamento-europeo/" target="_blank" class="card-read-link">Leer artículo →</a>
             </div>
           </div>
         </div>
 
-        <div class="article-card-exp" data-type="datos" id="a-partidos">
+        <div class="article-card-exp" data-categories="datos verificacion" id="a-votaciones">
           <div class="card-top">
             <div>
               <div class="article-meta">
                 <span class="badge badge-datos">Datos</span>
-                <span class="article-date">Feb 2024</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="article-date">Junio 2024</span>
+              </div>
+              <div class="article-title">¿PP y PSOE siempre votan igual en Europa?¿Cuánto coinciden el resto de partidos? Los datos de las votaciones en el Parlamento Europeo</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Para contrastar el discurso de campaña de Vox que decía que PP y PSOE votan igual en Europa hice un análisis de la compleja actividad parlamentaria. Usé los datos de <a href="https://data.europa.eu/en/publications/use-cases/parltrack" target="_blank" rel="noopener">Parltrack</a> para procesar los datos de todas las votaciones de la legislatura. Esto nos permitió mapear las confluencias de voto de todos los eurodiputados españoles y sus respectivos grupos.</p>
+              <p class="panel-text">análisis avanzado, visualización, análisis de datos</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditodato/20240606/votaciones-diputados-espanoles-parlamento-europeo/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos verificacion" id="a-mesas-2023">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="article-date">Mayo 2024</span>
+              </div>
+              <div class="article-title">Cuáles fueron las excusas más frecuentes para librarse de una mesa electoral en las elecciones generales y locales de 2023</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">En 2023 hubo elecciones en el mes de julio y al pillar en vacaciones, el tema de las excusas para no ir a las mesas electorales fue muy comentado. Pedimos información a la Junta Electoral Central y nos pasaron un informe inédito que resumimos con varios gráficos. Además de explicar los motivos más frecuentes para librarse de las mesas, también detallamos la limitación de los datos: reconocían no tener cifras completas del país porque dependía de pedirlas a los ayuntamientos y a las más de 300 juntas electorales.</p>
+              <p class="panel-text">transparencia, análisis datos, análisis normativa, visualización</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditodato/20240516/motivos-exclusion-mesas-electorales-2023/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos" id="a-voto-rural">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Abril 2024</span>
+              </div>
+              <div class="article-title">Voto rural y urbano en el País Vasco: el voto a PNV y EH Bildu se concentra sobre todo en los pequeños municipios y se diluye en las ciudades</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Los análisis postelectorales tienen una vida útil muy corta. Suele haber un aluvión de información y la clave es encontrar un enfoque simple y acertado. En este caso demostramos con gráficos cómo el voto al PNV y Bildu se concentró en municipios pequeños.</p>
+              <p class="panel-text">Este artículo ejemplifica un trabajo de años. He cubierto la gran mayoría de procesos electorales regionales, nacionales y europeos desde diciembre de 2018 hasta octubre de 2025. Las <a href="https://www.elmundo.es/espana/2018/12/08/5c0ac8e121efa09c2f8b45f9.html" target="_blank" rel="noopener">elecciones andaluzas de 2018 en las que Vox entró a las instituciones</a> fueron las primeras que cubrí como periodista de datos.</p>
+              <p class="panel-text">análisis datos, cobertura electoral, visualización, mapas</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditodato/20240422/voto-rural-urbano-autonomicas-pais-vasco/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos" id="a-abertzale-catalunya">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Abril 2024</span>
+              </div>
+              <div class="article-title">El voto a la ‘izquierda abertzale’ en las elecciones autonómicas del País Vasco: de Herri Batasuna a EH Bildu</div>
+              <div class="article-title">De CiU y el 'pujolismo' al 'procés' y la amnistía: así ha evolucionado el voto independentista en Cataluña</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">En 2024 hubo elecciones vascas y catalanas con un mes de diferencia y decidimos hacer unas cronologías breves de la evolución del voto nacionalista e independentista. Exigió un trabajo de documentación y hemeroteca para repasar las candidaturas históricas y señalar los momentos clave de cada período político. Lo complicado era condensarlo en un formato de artículo breve con gráficos claros que mostrasen estas evoluciones.</p>
+              <p class="panel-text">hemeroteca, documentación, visualización, análisis datos, cobertura electoral</p>
+            </div>
+            <div class="panel-bottom">
+              <div class="panel-links-group">
+                <a href="https://maldita.es/malditodato/20240417/evolucion-izquierda-abertzale-pais-vasco-autonomicas/" target="_blank" class="card-read-link">Artículo 1 →</a>
+                <a href="https://maldita.es/malditodato/20240508/evolucion-voto-independentista-catalunya/" target="_blank" class="card-read-link">Artículo 2 →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos" id="a-partidos">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Febrero 2024</span>
               </div>
               <div class="article-title">Arqueología política: casi 2.000 partidos creados durante la democracia ya no existen</div>
             </div>
@@ -333,20 +471,33 @@
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">Solo existían datos públicos de partidos en activo, no de los dados de baja. Era un hueco informativo sobre la historia política española desde la Transición. Solicité el listado histórico al Consejo de Transparencia y lo concedieron: era información que nunca había sido explotada. Extraje y transformé los datos de un PDF, analicé picos de inscripción y patrones de desaparición, y los puse en contexto con hemeroteca de la época de la legalización de partidos tras el franquismo. Los gráficos muestran la historia política española vista desde sus registros administrativos.</p>
+              <p class="panel-text">Conseguimos a través de la ley de transparencia el listado inédito de todos los partidos políticos inscritos en España desde la Transición. Extrajimos y transformamos la información en pdf y analizamos la desaparición de partidos, los picos de inscripción o siglas que nunca fueron legalizadas. También revisamos la hemeroteca posfranquista sobre la legalización de los partidos. Un ejercicio de memoria histórica interesante.</p>
+              <p class="panel-text">limpieza de datos, ley de transparencia, hemeroteca, fuentes humanas, visualización</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Solicitud de transparencia</span>
-                  <span class="contrib-chip">Extracción de datos (PDF)</span>
-                  <span class="contrib-chip">Visualización</span>
-                  <span class="contrib-chip">Hemeroteca</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
+              <a href="https://maldita.es/malditodato/20240229/partidos-politicos-registro-ministerio-interior/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos" id="a-goya-2023">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Febrero 2024</span>
               </div>
-              <a href="https://maldita.es/malditodato/20240229/partidos-politicos-registro-ministerio-interior/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <div class="article-title">No es Goya todo lo que reluce: datos sobre el cine producido en España en 2023</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Scrapeé y analicé todas las películas proyectadas en las salas de cine de España en 2023 para ir más allá del foco de los Goya. El objetivo era visibilizar los reconocimientos del sector con gráficos, textos breves y una metodología rigurosa.</p>
+              <p class="panel-text">scraping web, análisis avanzado, análisis datos, visualización</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditodato/20240209/cine-espanol-2023-premios-goya/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
@@ -359,92 +510,100 @@
       <div class="timeline-year">2023</div>
       <div class="year-articles">
 
-        <div class="article-card-exp" data-type="datos" id="a-spam">
+        <div class="article-card-exp" data-categories="datos" id="a-agosto">
           <div class="card-top">
             <div>
               <div class="article-meta">
                 <span class="badge badge-datos">Datos</span>
-                <span class="article-date">Abr 2023</span>
+                <span class="article-date">Agosto 2023</span>
               </div>
-              <div class="article-title">El 'spam' parlamentario y las estrategias del Gobierno para no responder</div>
+              <div class="article-title">El día del verano en que las ciudades se quedan más vacías es el segundo sábado de agosto: en 2022 perdieron a una cuarta parte de sus habitantes</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">La hipótesis de partida era que los diputados abusaban de las preguntas escritas para colapsar los servicios de respuesta del Gobierno y subir en estadísticas de actividad. Era una práctica visible en los datos pero nunca documentada. Los datos del Congreso son públicos y continuamente actualizados. Junto a una organización que había extraído los datos de varias legislaturas, detecté mediante análisis de texto las preguntas clónicas (mismo tema, variable de localización) y los patrones de no respuesta. Visité el Congreso para entrevistar a diputados y obtener testimonios de primera mano sobre esta práctica.</p>
+              <p class="panel-text">Quise describir estadísticamente cuál es el día exacto del verano en el que las ciudades españolas se vacían más por las vacaciones. Para ello utilicé los microdatos de movilidad anonimizados del Ministerio de Transportes y crucé las pernoctaciones diarias con las medias habituales de residencia y los desplazamientos vacacionales.</p>
+              <p class="panel-text">análisis de datos, visualización, fuentes humanas</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Análisis de datos</span>
-                  <span class="contrib-chip">Detección de patrones textuales</span>
-                  <span class="contrib-chip">Fuentes humanas (Congreso)</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditodato/20230427/spam-parlamentario-congreso-preguntas/" target="_blank" class="card-read-link">Leer artículos →</a>
+              <a href="https://maldita.es/malditodato/20230810/dia-agosto-viajes-ciudades-vacias/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
 
-        <div class="article-card-exp" data-type="verificacion" id="a-ribera">
+        <div class="article-card-exp" data-categories="desinfo verificacion" id="a-ribera">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="article-date">Julio 2023</span>
+              </div>
+              <div class="article-title">No, la ministra Teresa Ribera no ha viajado el 10 de julio a Valladolid en Falcon</div>
+              <div class="article-title">Datos y desinformaciones sobre Teresa Ribera, el Falcon y su llegada en bici a un encuentro climático en Valladolid</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Se viralizó rápidamente que una ministra del Gobierno había ido en avión a una cumbre climática y que además aparentaba ser sostenible cogiendo una bici momentos antes de su llegada ante la prensa. Calibramos su impacto en redes, contrastamos las numerosas respuestas de su gabinete y reconstruimos su ruta en bici por la ciudad mediante verificación visual.</p>
+              <p class="panel-text">rastreo en redes, verificación visual, fuentes humanas</p>
+            </div>
+            <div class="panel-bottom">
+              <div class="panel-links-group">
+                <a href="https://maldita.es/clima/20230710/teresa-ribera-falcon-valladolid/" target="_blank" class="card-read-link">Artículo 1 →</a>
+                <a href="https://maldita.es/malditobulo/20230713/teresa-ribera-falcon-bici-valladolid/" target="_blank" class="card-read-link">Artículo 2 →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos" id="a-spam">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Abril 2023</span>
+              </div>
+              <div class="article-title">El 'spam' parlamentario: las estructuras repetitivas en miles de preguntas al Gobierno</div>
+              <div class="article-title">Estrategias del Gobierno para no responder a determinadas preguntas parlamentarias: no contestar a lo que se pregunta, jugar con los plazos reglamentarios o contestar en lote</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Hicimos un análisis de las preguntas parlamentarias en las pasadas legislaturas junto a la organización Political Watch. Mostramos estadísticamente cómo se inflan las estadísticas de actividad mediante preguntas repetitivas y analizamos varias casuísticas curiosas como las preguntas que nunca se contestaban. También estuvimos en el Congreso hablando con algunos diputados para aportar más contexto. Fue un ejercicio de reporterismo y análisis de datos públicos que no suelen ser explorados por la dificultad de su formato, pero que generan una gran fuente de información.</p>
+              <p class="panel-text">análisis de datos, transparencia, visualización, fuentes humanas</p>
+            </div>
+            <div class="panel-bottom">
+              <div class="panel-links-group">
+                <a href="https://maldita.es/malditodato/20230427/spam-parlamentario-congreso-preguntas/" target="_blank" class="card-read-link">Artículo 1 →</a>
+                <a href="https://maldita.es/malditodato/20230428/congreso-preguntas-parlamentarias-gobierno-respuestas/" target="_blank" class="card-read-link">Artículo 2 →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="verificacion desinfo" id="a-dinosaurios">
           <div class="card-top">
             <div>
               <div class="article-meta">
                 <span class="badge badge-verificacion">Verificación</span>
-                <span class="article-date">Jul 2023</span>
+                <span class="badge badge-desinfo">Desinformación</span>
+                <span class="article-date">Marzo 2023</span>
               </div>
-              <div class="article-title">Teresa Ribera no llegó en avión a la cumbre del clima: reconstruimos su ruta en bicicleta</div>
+              <div class="article-title">Bulos y desinformaciones sobre la aparición de dinosaurios vivos en Japón</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">El bulo del avión de Ribera tenía un alto impacto político y era ampliamente compartido. La ministra de Medio Ambiente llegando en avión privado a una cumbre climática era una contradicción narrativa poderosa. Valía la pena reconstruir exhaustivamente qué ocurrió. Cruzamos datos de seguimiento de vuelos, imágenes de redes sociales, horarios de actos públicos y verificación visual de la ruta en bicicleta que hizo en Valladolid para confirmar o desmentir el bulo con evidencias concretas y localizadas.</p>
+              <p class="panel-text">A veces te encuentras con cosas peculiares como gente diciendo que hay dinosaurios vivos en Japón. Era obvio que los dinosaurios de los vídeos no eran reales, pero buscando un poco más de dónde podrían haber salido estas teorías encontramos el perfil de una mujer que parecía expandir el rumor pero sin aportar ningún tipo de prueba. En esta conspiración también encajaban otras noticias como el supuesto huevo de Godzilla que se había encontrado en una playa japonesa y era una boya o que Japón había hecho recientemente un recuento de sus costas y había duplicado el número de islas de su archipiélago.</p>
+              <p class="panel-text">rastreo RRSS, detección origen, análisis teorías conspirativas</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Geolocalización de ruta</span>
-                  <span class="contrib-chip">Cruce de fuentes</span>
-                  <span class="contrib-chip">Verificación visual</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditobulo/20230713/teresa-ribera-falcon-bici-valladolid/" target="_blank" class="card-read-link">Leer artículo →</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="article-card-exp" data-type="datos" id="a-agosto">
-          <div class="card-top">
-            <div>
-              <div class="article-meta">
-                <span class="badge badge-datos">Datos</span>
-                <span class="article-date">Ago 2023</span>
-              </div>
-              <div class="article-title">Cuál es el día del verano en que las ciudades están más vacías, según datos de telefonía</div>
-            </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
-          </div>
-          <div class="card-panel">
-            <div class="panel-text-main">
-              <p class="panel-text">Era una idea original con alto interés popular: todos hablan de cuándo se vacía la ciudad pero nadie lo había medido con datos. Los microdatos de movilidad del Ministerio de Transportes, derivados de señales anónimas de terminales móviles, lo hacían posible. Usé los datos diarios de pernoctaciones en el municipio de residencia habitual y los comparé con las pernoctaciones medias y con los desplazamientos vacacionales para calcular el índice de vaciado de cada ciudad en cada día del verano.</p>
-            </div>
-            <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Idea original</span>
-                  <span class="contrib-chip">Análisis de microdatos</span>
-                  <span class="contrib-chip">Visualización</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditodato/20230810/dia-agosto-viajes-ciudades-vacias/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <a href="https://maldita.es/malditobulo/20230306/desinformaciones-dinosaurios-islas-japon/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
@@ -452,94 +611,97 @@
       </div>
     </div><!-- /2023 -->
 
-    
     <!-- 2022 -->
     <div class="timeline-year-group" data-year="2022">
       <div class="timeline-year">2022</div>
       <div class="year-articles">
 
-        <div class="article-card-exp" data-type="datos" id="a-ambulancias">
+        <div class="article-card-exp" data-categories="datos contexto" id="a-ambulancias">
           <div class="card-top">
             <div>
               <div class="article-meta">
-                <span class="badge badge-datos">Periodismo de Datos</span>
-                <span class="article-date">Jul 2022</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Julio 2022</span>
               </div>
-              <div class="article-title">Tiempos de respuesta de las ambulancias en Madrid</div>
+              <div class="article-title">Las ambulancias de la Comunidad de Madrid: las llamadas por casos de violencia de género y agresiones sexuales se multiplican por las noches y en verano</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">Existía una gran cantidad de datos en bruto difíciles de procesar sobre los tiempos de atención de emergencias (ambulancias) en la Comunidad de Madrid, permitiendo ver las emergencias de todo tipo. El trabajo consistió en escrapear cientos de páginas en PDF, detectar y corregir errores en las horas y calcular el tiempo de respuesta real para distintas emergencias.</p>
+              <p class="panel-text">Otra intensa pelea de transparencia: <a href="https://www.eldiario.es/autores/yuly_jara/" target="_blank" rel="noopener">Yuly</a> consiguió los datos de respuesta de las ambulancias de Madrid que permitían ver casi el minuto a minuto de las emergencias: infartos, caídas, intentos de suicido, heridas por armas. Yo hice el trabajo de limpiar y depurar los datos: scraping de cientos de páginas en pdf, detección de errores, cálculo del tiempo de respuesta de las ambulancias…</p>
+              <p class="panel-text">scraping de pdf, análisis avanzado, depuración y limpieza de datos, metodología</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Scraping de PDFs</span>
-                  <span class="contrib-chip">Limpieza de datos temporales</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditodato/20220728/ambulancias-comunidad-madrid-tiempo-maximo/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <a href="https://maldita.es/malditodato/20220729/ambulancias-madrid-violencia-genero-agresiones-verano/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
 
-        <div class="article-card-exp" data-type="datos" id="a-medicamentos">
+        <div class="article-card-exp" data-categories="datos contexto" id="a-medicamentos">
           <div class="card-top">
             <div>
               <div class="article-meta">
-                <span class="badge badge-datos">Periodismo de Datos</span>
-                <span class="article-date">Jul 2022</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Julio 2022</span>
               </div>
-              <div class="article-title">Medicamentos en paradero desconocido: alertas por robo o pérdida</div>
+              <div class="article-title">Medicamentos en paradero desconocido: más de 500 alertas por robo o pérdida de fármacos en los últimos ocho años</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">Quería investigar el comercio ilegal y falsificación de medicamentos en nuestro país a través de los reportes oficiales de la cadena de distribución. Formulé una petición de transparencia a la AEMPS. Realizamos un gran trabajo de clasificación manual de medicamentos y comparamos datos con años anteriores.</p>
+              <p class="panel-text">Descubrí que existía un formulario para notificar robos de fármacos y solicité a la AEMPS el histórico completo para investigar qué ocurría con ellos. Fue la continuación de <a href="https://www.elmundo.es/ciencia-y-salud/salud/2018/11/12/5bbe2da7e5fdea26578b4620.html" target="_blank" rel="noopener">un reportaje que hice como becario en El Mundo</a>. Hubo que hacer un trabajo complejo de clasificación de medicamentos y hablamos con fuentes de la industria y la Guardia Civil para comprender el contexto de estas desapariciones. Muchas veces son falsificados o vendidos en el mercado negro.</p>
+              <p class="panel-text">visualización, scraping pdf, clasificación manual, investigación, fuentes humanas, transparencia</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Solicitud de Transparencia</span>
-                  <span class="contrib-chip">Clasificación manual</span>
-                  <span class="contrib-chip">Idea original</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditodato/20220705/medicamentos-paradero-desconocido-alertas-robo-perdida/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <a href="https://maldita.es/malditodato/20220705/medicamentos-paradero-desconocido-alertas-robo-perdida/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
 
-        <div class="article-card-exp" data-type="datos" id="a-destino-espana">
+        <div class="article-card-exp" data-categories="datos" id="a-destino-espana">
           <div class="card-top">
             <div>
               <div class="article-meta">
-                <span class="badge badge-datos">Periodismo de Datos</span>
-                <span class="article-date">Mar 2022</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Marzo 2022</span>
               </div>
-              <div class="article-title">Destino España durante la pandemia</div>
+              <div class="article-title">Así entraron por los aeropuertos españoles más de 10 millones de personas desde el extranjero durante la pandemia</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">El control de pasajeros durante la pandemia fue muy estricto y se recopiló muchísima información de viajeros, pero costaba entender su enorme impacto y escala de forma fácil. Procesando datos granulares de millones de visitantes con Python y creando un scrollytelling con Flourish en el que cada 'bolita' representaba un viajero para comunicar visualmente los patrones encontrados.</p>
+              <p class="panel-text">Mi compañero <a href="https://www.infolibre.es/autores/sergio-sangiao/" target="_blank" rel="noopener">Sergio</a> obtuvo a través de transparencia los datos individuales de formularios sanitarios para fiscalizar el control de pasajeros durante la pandemia. Yo presté el apoyo técnico para procesar millones de registros con Python y diseñé un scrollytelling en Flourish para condensar todo el potencial de estos datos.</p>
+              <p class="panel-text">visualización, análisis avanzado, diseño scrollytelling, metodología</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Procesamiento masivo con Python</span>
-                  <span class="contrib-chip">Visualización en Flourish</span>
-                  <span class="contrib-chip">Apoyo técnico</span>
-                </div>
+              <a href="https://maldita.es/malditodato/20220324/destino-espana/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="datos" id="a-bancos-2022">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Enero 2022</span>
               </div>
-              <a href="https://maldita.es/malditodato/20220324/destino-espana/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <div class="article-title">Tú a Caixabank y yo a Caja Rural: dime dónde vives y te diré en qué banco puedes sacar dinero</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Nos descargamos los datos de todas las oficinas bancarias de España y realizamos un análisis geográfico para plasmar el impacto de años de fusiones y cierres en el sector. Mediante programación, geolocalizamos, mapeamos y verificamos la ubicación exacta de cada sucursal. Este análisis se completó con<br>otro en el que calculamos qué oficinas habían desaparecido, cuáles eran nuevas o se mantenían<br>.</p>
+              <p class="panel-text">análisis avanzado, geolocalización, limpieza y depuración de los datos, visualización</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditodato/20220114/caixabank-caja-rural-banco-sacar-dinero/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
@@ -547,65 +709,83 @@
       </div>
     </div><!-- /2022 -->
 
+    <!-- 2021 -->
+    <div class="timeline-year-group" data-year="2021">
+      <div class="timeline-year">2021</div>
+      <div class="year-articles">
+
+        <div class="article-card-exp" data-categories="contexto" id="a-tejero-archivo">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Julio 2021</span>
+              </div>
+              <div class="article-title">La petición de indulto de Tejero por el 23-F: Maldita accede al archivo para consultar los informes que el Tribunal Supremo y la Fiscalía hicieron sobre él</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">Una de las primeras veces que salí de la redacción fue porque me habían autorizado para consultar el archivo del Tribunal Supremo. Estaba buscando un informe de indulto al golpista Antonio Tejero, lo transcribí entero y luego hice un artículo. En aquel momento se había dictado la sentencia contra  indultos a los presos del procés.</p>
+              <p class="panel-text">acceso archivo, documentación, transcripción, normativa</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditateexplica/20210709/peticion-indulto-tejero-23f-informes-tribunal-supremo-fiscalia/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- /2021 -->
+
     <!-- 2020 -->
     <div class="timeline-year-group" data-year="2020">
       <div class="timeline-year">2020</div>
       <div class="year-articles">
 
-        <div class="article-card-exp" data-type="verificacion" id="a-policia">
-          <div class="card-top">
-            <div>
-              <div class="article-meta">
-                <span class="badge badge-verificacion">Verificación</span>
-                <span class="article-date">Nov 2020</span>
-              </div>
-              <div class="article-title">¿Puede la policía entrar en tu casa sin orden judicial si hay más de seis personas?</div>
-            </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
-          </div>
-          <div class="card-panel">
-            <div class="panel-text-main">
-              <p class="panel-text">Era una duda real y urgente. Las medidas de restricción de reuniones levantaban incertidumbre jurídica sobre los límites de la actuación policial en domicilios privados. Quería dar una respuesta clara basada en derecho, no en rumores. Consulté a múltiples expertos en derecho constitucional y administrativo para construir una respuesta matizada y contrastada. La conclusión fue clara pero con importante contexto jurídico: el derecho a la inviolabilidad del domicilio prevalece salvo flagrante delito.</p>
-            </div>
-            <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Idea original</span>
-                  <span class="contrib-chip">Fuentes jurídicas expertas</span>
-                  <span class="contrib-chip">Redacción explicativa</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditateexplica/20201105/policia-entrar-casa-reuniones-seis-personas-autorizacion-judicial/" target="_blank" class="card-read-link">Leer artículo →</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="article-card-exp" data-type="datos" id="a-navidad">
+        <div class="article-card-exp" data-categories="datos contexto" id="a-navidad">
           <div class="card-top">
             <div>
               <div class="article-meta">
                 <span class="badge badge-datos">Datos</span>
-                <span class="article-date">Dic 2020</span>
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="article-date">Diciembre 2020</span>
               </div>
-              <div class="article-title">Cómo influye el número de personas en las reuniones familiares de Navidad en el riesgo de contagio</div>
+              <div class="article-title">Cómo influye en el riesgo de contagio durante una comida familiar que seamos 6 o 10 personas</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">Había mucha inseguridad sobre si era seguro reunirse con la familia en Navidad. Los datos científicos existían pero no estaban explicados de forma accesible. Era el momento de los grandes artículos interactivos de contagio que tuvieron enorme alcance internacional. Usé simuladores científicos de riesgo de contagio por aerosoles y los parametricé con distintas combinaciones de aforo, tamaño de vivienda y ventilación. Representé los resultados en Flourish para hacerlos fácilmente comprensibles para cualquier lector.</p>
+              <p class="panel-text">El primer año de COVID-19 hubo un auge del periodismo visual y de datos. Nos inspiramos en artículos muy populares (como los de <a href="https://elpais.com/especiales/coronavirus-covid-19/un-salon-un-bar-y-una-clase-asi-contagia-el-coronavirus-en-el-aire/" target="_blank" rel="noopener">El País</a> o el <a href="https://www.washingtonpost.com/graphics/2020/world/corona-simulator/" target="_blank" rel="noopener">Washington Post</a>) para hacer un simulador de contagio en base a unos modelos científicos. Hicimos unos gráficos interactivos en Flourish para visualizar la probabilidad de contagio por aerosoles según los metros cuadrados, la ventilación o el número de personas.</p>
+              <p class="panel-text">visualización, gráficos interactivos</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Análisis de simuladores</span>
-                  <span class="contrib-chip">Visualización (Flourish)</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
+              <a href="https://maldita.es/malditodato/20201209/como-influye-seis-diez-personas-reuniones-familiares-navidades/" target="_blank" class="card-read-link">Artículo 1 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="article-card-exp" data-categories="contexto verificacion" id="a-policia">
+          <div class="card-top">
+            <div>
+              <div class="article-meta">
+                <span class="badge badge-contexto">Contexto</span>
+                <span class="badge badge-verificacion">Verificación</span>
+                <span class="article-date">Noviembre 2020</span>
               </div>
-              <a href="https://maldita.es/malditodato/20201209/como-influye-seis-diez-personas-reuniones-familiares-navidades/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <div class="article-title">¿Puede la Policía entrar en tu casa durante el estado de alarma para comprobar si hay personas no convivientes?</div>
+            </div>
+            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+          </div>
+          <div class="card-panel">
+            <div class="panel-text-main">
+              <p class="panel-text">En lo más complicado de la pandemia de COVID-19 se aplicaban medidas disuasorias como limitar el número de personas reunidas o no poder alejarse demasiado de casa. Ante la duda y el temor generalizado, era necesario verificar estos límites legales. Queríamos saber si la Policía podía entrar en tu casa para multarte. Hablamos con expertos de distintas ramas del derecho y en resumen: es mejor no invitarles a entrar.</p>
+              <p class="panel-text">análisis normativo, fuentes humanas</p>
+            </div>
+            <div class="panel-bottom">
+              <a href="https://maldita.es/malditateexplica/20201105/policia-entrar-casa-reuniones-seis-personas-autorizacion-judicial/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
@@ -618,31 +798,24 @@
       <div class="timeline-year">2019</div>
       <div class="year-articles">
 
-        <div class="article-card-exp" data-type="investigacion" id="a-dni">
+        <div class="article-card-exp" data-categories="datos" id="a-dni">
           <div class="card-top">
             <div>
               <div class="article-meta">
-                <span class="badge badge-inv">Investigación</span>
-                <span class="article-date">Nov 2019</span>
+                <span class="badge badge-datos">Datos</span>
+                <span class="article-date">Noviembre 2019</span>
               </div>
-              <div class="article-title">Interior publica por error los DNI de más de 5.000 candidatos al Congreso</div>
+              <div class="article-title">Interior publica &quot;por error&quot; los DNI de más de 5.000 candidatos para las elecciones del 28-A: ¿cuáles son las consecuencias?</div>
             </div>
             <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
-              <p class="panel-text">Analizando los datos electorales publicados por Interior antes de las elecciones generales, detecté que los archivos contenían los DNI completos de los candidatos, lo que permitía cruzar la información con el censo electoral y localizar en qué mesa votarían. Descargué y analicé los archivos de candidaturas publicados por el Ministerio, identifiqué el campo que contenía los datos sensibles y verifiqué la vulnerabilidad cruzando la información con el censo electoral antes de publicar, dando tiempo a Interior para corregirlo.</p>
+              <p class="panel-text">En 2019 detecté y notifiqué una brecha de seguridad: el Ministerio del Interior había publicado por error los DNI completos de más de 5.000 candidatos a las elecciones generales. Para evaluar el alcance y los riesgos para la privacidad de estas personas expuestas, utilicé el DNI y la fecha de nacimiento para encontrar la sección censal exacta en la que estaban empadronados varios de ellos. Además de analizar el impacto normativo sobre la protección de datos personales, contrasté las versiones de Indra e Interior para esclarecer la responsabilidad del incidente.</p>
+              <p class="panel-text">brecha seguridad, datos personales, privacidad, fuentes humanas, normativa, registros administrativos, visualización</p>
             </div>
             <div class="panel-bottom">
-              <div>
-                <div class="panel-label">Mi contribución</div>
-                <div class="contrib-chips">
-                  <span class="contrib-chip">Detección de vulnerabilidad</span>
-                  <span class="contrib-chip">Análisis de datos electorales</span>
-                  <span class="contrib-chip">Redacción</span>
-                </div>
-              </div>
-              <a href="https://maldita.es/malditodato/20191128/interior-publica-por-error-los-dni-de-mas-de-5-000-candidatos-para-las-elecciones-del-28-a-peligros-y-consecuencias/" target="_blank" class="card-read-link">Leer artículo →</a>
+              <a href="https://maldita.es/malditodato/20191128/interior-publica-por-error-los-dni-de-mas-de-5-000-candidatos-para-las-elecciones-del-28-a-peligros-y-consecuencias/" target="_blank" class="card-read-link">Artículo 1 →</a>
             </div>
           </div>
         </div>
@@ -657,46 +830,43 @@
   <div class="beyond-grid">
 
     <div class="beyond-item">
-      <h3 class="beyond-title">Verificación para documentales</h3>
+      <h3 class="beyond-title">Verificación para reportajes y documentales</h3>
+      <p class="beyond-intro">Trabajo de verificación en flujos de producción con plazos de entrega exigentes:</p>
       <ul class="beyond-list">
-        <li><strong>800 metros</strong> (Netflix, 2022): contraste del sumario con hemeroteca y fuentes abiertas, revisión de la sentencia y conteo individual de todas las víctimas.</li>
-        <li><strong>Yo Ibextigo</strong> (La Marea — Técnicas Reunidas, Indra y Grifols): verificación de información corporativa.</li>
-        <li><strong>De eso no se habla</strong> (Temporada 3): revisión durante el proceso de producción.</li>
-        <li><strong>Abro paraguas</strong>: temas de memoria histórica y punitivismo.</li>
+        <li><strong>Revisión técnica y documental</strong>: contraste con registros públicos, hemeroteca y herramientas OSINT.</li>
+        <li><strong>800 metros</strong> (Netflix, 2022): análisis de sumario, sentencia y conteo individual de víctimas.</li>
+        <li><strong>De eso no se habla (T3)</strong> (EITB Media, 2025): investigación y verificación en fase de producción.</li>
+        <li><strong>Yo Ibextigo</strong> (La Marea, 2019-2020): verificación de información corporativa de Técnicas Reunidas, Indra y Grifols.</li>
       </ul>
     </div>
 
     <div class="beyond-item">
       <h3 class="beyond-title">Informática forense y peritaje</h3>
-      <p class="beyond-intro">Formación en informática forense para análisis técnicos reproducibles con validez legal:</p>
+      <p class="beyond-intro">Analisis tecnico reproducible para aportar validez legal en procesos judiciales:</p>
       <ul class="beyond-list">
-        <li><strong>Adquisición de evidencias</strong>: mantener la cadena de custodia y elementos mínimos para análisis reproducibles.</li>
-        <li><strong>Atribución avanzada</strong>: rastrear propiedad e historial de elementos web, identificar quién está detrás de perfiles.</li>
-        <li><strong>Análisis técnico</strong>: verificar si un mensaje fue enviado, si una imagen es real, si un fichero fue manipulado o cuál fue la fecha real de publicación.</li>
-        <li><strong>Seguridad</strong>: privacidad y protección en investigaciones de actores peligrosos.</li>
+        <li><strong>Cadena de custodia</strong>: adquisición y preservación de evidencias digitales volátiles.</li>
+        <li><strong>Autenticidad y trazabilidad</strong>: verificación de perfiles, auditoría de ficheros y cronología real de publicación.</li>
+        <li><strong>Informes técnicos</strong>: documentación clara, visual y accesible para decisiones operativas y legales.</li>
       </ul>
     </div>
 
     <div class="beyond-item">
       <h3 class="beyond-title">Inteligencia corporativa</h3>
-      <p class="beyond-intro">Analista de Inteligencia en Repsol (oct 2025 — ene 2026):</p>
+      <p class="beyond-intro">Analisis rapido ante incidentes, riesgos reputacionales y amenazas digitales:</p>
       <ul class="beyond-list">
-        <li><strong>OSINT</strong>: recolección de información mediante fuentes abiertas, rastreo de huella digital.</li>
-        <li><strong>Análisis de fraude</strong>: monitorización de ecosistemas de fraude y redes de páginas web fraudulentas.</li>
-        <li><strong>Threat intelligence</strong>: detección temprana mediante rastreo de repositorios de código.</li>
-        <li><strong>IA agéntica</strong>: flujos semi-automatizados para topic research y análisis de sentimiento.</li>
-        <li><strong>Respuesta ante crisis</strong>: análisis rápido en entornos de emergencia.</li>
+        <li><strong>Monitorización de fraude</strong>: seguimiento de repositorios, perfiles e infraestructuras con potencial fraudulento.</li>
+        <li><strong>OPSEC</strong>: medidas de protección para blindar identidad y entorno en investigaciones de riesgo.</li>
+        <li><strong>Flujos semiautomatizados</strong>: detección de ruido analítico, análisis de sentimiento y alertas tempranas.</li>
       </ul>
     </div>
 
     <div class="beyond-item">
       <h3 class="beyond-title">Docencia y formación</h3>
+      <p class="beyond-intro">Acompañamiento tecnico en herramientas de periodismo de datos, verificacion e investigacion digital.</p>
       <ul class="beyond-list">
-        <li><strong>UAM-El País / U. Sevilla / UOC</strong>: taller de verificación de imágenes y OSINT (2019 — presente).</li>
-        <li><strong>UAM-El País / UAGN</strong>: taller de detección y análisis de desinformación (2021 — presente).</li>
-        <li><strong>Máster Maldita.es / URJC</strong>: clases de periodismo de datos y periodismo electoral (2023 — presente).</li>
-        <li><strong>European Journalism Centre</strong>: ponencia sobre desinformación en Ucrania (2022).</li>
-        <li><strong>Reuters Institute · Oxford</strong>: metodología de fact-checking durante la pandemia (2021).</li>
+        <li><strong>UAGN (2025)</strong>: ponencia sobre impacto de narrativas desinformativas en el sector primario.</li>
+        <li><strong>El País (2024)</strong>: formación en procesos de verificación política para redacción.</li>
+        <li><strong>Máster URJC / Maldita.es (2022-2023)</strong>: clases de periodismo de datos, verificación política y cobertura electoral.</li>
       </ul>
     </div>
 
@@ -709,8 +879,39 @@
   const articleFilters = document.getElementById('article-filters');
   const filterBtns = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.article-card-exp');
+  const cardTops = document.querySelectorAll('.card-top');
   const groups = document.querySelectorAll('.timeline-year-group');
   const countEl = document.getElementById('article-count');
+
+  // Agregar imágenes placeholder como fondo en cada tarjeta
+  cardTops.forEach(cardTop => {
+    const title = (cardTop.querySelector('.article-title')?.textContent || 'Artículo').substring(0, 30);
+    const imageUrl = 'https://via.placeholder.com/800x400?text=' + encodeURIComponent(title);
+    cardTop.style.backgroundImage = 'url("' + imageUrl + '")';
+  });
+
+  cards.forEach(card => {
+    const textBlocks = card.querySelectorAll('.panel-text-main .panel-text');
+    const panelBottom = card.querySelector('.panel-bottom');
+
+    if (textBlocks.length > 1 && panelBottom && !panelBottom.querySelector('.panel-techniques')) {
+      const techniques = textBlocks[textBlocks.length - 1];
+      const techniquesInline = document.createElement('p');
+      techniquesInline.className = 'panel-techniques';
+      techniquesInline.innerHTML = techniques.innerHTML;
+      panelBottom.prepend(techniquesInline);
+      techniques.remove();
+    }
+  });
+
+  cardTops.forEach(cardTop => {
+    cardTop.addEventListener('click', event => {
+      if (event.target.closest('a, button')) {
+        return;
+      }
+      cardTop.closest('.article-card-exp').classList.toggle('open');
+    });
+  });
 
   viewBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -739,7 +940,8 @@
       const filter = btn.dataset.filter;
       let visible = 0;
       cards.forEach(card => {
-        const show = filter === 'all' || card.dataset.type === filter;
+        const categories = (card.dataset.categories || '').split(/\s+/).filter(Boolean);
+        const show = filter === 'all' || categories.includes(filter);
         card.classList.toggle('hidden', !show);
         if (show) visible++;
       });
