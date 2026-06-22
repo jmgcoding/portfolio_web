@@ -367,6 +367,8 @@ nav {
   letter-spacing: 0.06em;
   padding: 3px 7px;
   text-transform: uppercase;
+  mix-blend-mode: normal;
+  filter: saturate(1.2);
 }
 
 .badge-inv       { background: #f8d9d4; color: #9d2f20; }
@@ -612,7 +614,7 @@ nav {
 
 .panel-text {
   font-size: 13px;
-  color: var(--ink-muted);
+  color: var(--ink);
   line-height: 1.65;
 }
 
