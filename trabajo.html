@@ -11,29 +11,24 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html#inicio" class="nav-logo">JMG</a>
+<nav aria-label="Principal">
   <ul class="nav-links">
     <li><a href="index.html#inicio">Bio y contacto</a></li>
     <li><a href="trabajo.html" class="active" aria-current="page">Trabajos</a></li>
   </ul>
 </nav>
 
-<div class="section-header" style="padding-top: 2.5rem; padding-bottom: 0;">
-  <h1 class="section-title">Trabajos</h1>
-</div>
-
 <div class="work-controls">
   <div class="work-view-switch work-switchbar" aria-label="Cambiar vista de trabajos">
-    <button class="view-btn active" type="button" data-view="periodismo" aria-pressed="true">Piezas periodísticas</button>
-    <button class="view-btn" type="button" data-view="mas-alla" aria-pressed="false">Más allá del periodismo</button>
+    <button class="view-btn active" type="button" data-view="periodismo" aria-pressed="true">Algunas piezas periodísticas</button>
+    <button class="view-btn" type="button" data-view="mas-alla" aria-pressed="false">Otras cosas</button>
   </div>
   <div class="timeline-filters article-filterbar" id="article-filters">
-    <button class="filter-btn active" data-filter="all">Todos</button>
-    <button class="filter-btn" data-filter="desinfo">Desinformación</button>
-    <button class="filter-btn" data-filter="datos">Datos</button>
-    <button class="filter-btn" data-filter="verificacion">Verificación</button>
-    <button class="filter-btn" data-filter="contexto">Contexto</button>
+    <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+    <button class="filter-btn" type="button" data-filter="desinfo" aria-pressed="false">Desinformación</button>
+    <button class="filter-btn" type="button" data-filter="datos" aria-pressed="false">Datos</button>
+    <button class="filter-btn" type="button" data-filter="verificacion" aria-pressed="false">Verificación</button>
+    <button class="filter-btn" type="button" data-filter="contexto" aria-pressed="false">Contexto</button>
   </div>
 </div>
 
@@ -57,7 +52,7 @@
               </div>
               <div class="article-title">&quot;¡Alarma, pensionista!&quot;: cuidado con los canales de YouTube que publican vídeos para alertar, desinformar y confundir sobre las pensiones de jubilación</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -80,7 +75,7 @@
               </div>
               <div class="article-title">Qué sabemos sobre los proyectos urbanísticos en las zonas afectadas por los incendios en Tarifa (Cádiz)</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -102,7 +97,7 @@
               </div>
               <div class="article-title">Situación de la agrovoltaica en España: proyectos y principales barreras para su implantación</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -125,7 +120,7 @@
               </div>
               <div class="article-title">Cuidado con este vídeo de una montaña cubierta por placas solares en China que circula descontextualizado en España y otros países</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -148,7 +143,7 @@
               </div>
               <div class="article-title">Esta planta fotovoltaica no destruyó un &quot;enorme olivar&quot; en Granada: es Cáceres y se quitaron un máximo de 16 olivos</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -172,7 +167,7 @@
               <div class="article-title">Historia de la expansión de la red rusa Pravda en España: más de 150.000 publicaciones alcanzando sus máximos picos en eventos como el apagón o el asesinato de Portnov</div>
               <div class="article-title">Un tercio de su contenido acaba en Pravda: cómo funcionan los canales de Telegram que alimentan a la red rusa en español</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -199,7 +194,7 @@
               </div>
               <div class="article-title">La desinformación sobre el apagón dio la vuelta al mundo: medios suplantados, fenómenos atmosféricos raros y redes rusas</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -221,7 +216,7 @@
               </div>
               <div class="article-title">País de origen: cuándo es obligatorio que se incluya en la etiqueta de un alimento</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -244,7 +239,7 @@
               </div>
               <div class="article-title">Cronología de una desinformación: desde &quot;la OMS prohíbe la carne&quot; hasta una &quot;guerra contra la agricultura&quot;</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -266,7 +261,7 @@
               </div>
               <div class="article-title">Naranjas en agosto y uvas en abril: qué significa que una fruta o verdura sea o no de temporada</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -288,7 +283,7 @@
               </div>
               <div class="article-title">Consulta qué frutas y verduras están de temporada en tu provincia</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -319,7 +314,7 @@
               </div>
               <div class="article-title">De desacreditar el voto a sembrar dudas sobre el recuento: la desinformación contra las instituciones en un año superelectoral en España</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -346,7 +341,7 @@
               <div class="article-title">No es solo Junts: las posibles anomalías en cientos de mesas son marginales y no influyen en los resultados definitivos de las europeas</div>
               <div class="article-title">Los errores en las actas electorales: ¿se pueden corregir?</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -373,7 +368,7 @@
               </div>
               <div class="article-title">¿PP y PSOE siempre votan igual en Europa?¿Cuánto coinciden el resto de partidos? Los datos de las votaciones en el Parlamento Europeo</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -396,7 +391,7 @@
               </div>
               <div class="article-title">Cuáles fueron las excusas más frecuentes para librarse de una mesa electoral en las elecciones generales y locales de 2023</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -418,7 +413,7 @@
               </div>
               <div class="article-title">Voto rural y urbano en el País Vasco: el voto a PNV y EH Bildu se concentra sobre todo en los pequeños municipios y se diluye en las ciudades</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -442,7 +437,7 @@
               <div class="article-title">El voto a la ‘izquierda abertzale’ en las elecciones autonómicas del País Vasco: de Herri Batasuna a EH Bildu</div>
               <div class="article-title">De CiU y el 'pujolismo' al 'procés' y la amnistía: así ha evolucionado el voto independentista en Cataluña</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -467,7 +462,7 @@
               </div>
               <div class="article-title">Arqueología política: casi 2.000 partidos creados durante la democracia ya no existen</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -489,7 +484,7 @@
               </div>
               <div class="article-title">No es Goya todo lo que reluce: datos sobre el cine producido en España en 2023</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -519,7 +514,7 @@
               </div>
               <div class="article-title">El día del verano en que las ciudades se quedan más vacías es el segundo sábado de agosto: en 2022 perdieron a una cuarta parte de sus habitantes</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -543,7 +538,7 @@
               <div class="article-title">No, la ministra Teresa Ribera no ha viajado el 10 de julio a Valladolid en Falcon</div>
               <div class="article-title">Datos y desinformaciones sobre Teresa Ribera, el Falcon y su llegada en bici a un encuentro climático en Valladolid</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -569,7 +564,7 @@
               <div class="article-title">El 'spam' parlamentario: las estructuras repetitivas en miles de preguntas al Gobierno</div>
               <div class="article-title">Estrategias del Gobierno para no responder a determinadas preguntas parlamentarias: no contestar a lo que se pregunta, jugar con los plazos reglamentarios o contestar en lote</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -595,7 +590,7 @@
               </div>
               <div class="article-title">Bulos y desinformaciones sobre la aparición de dinosaurios vivos en Japón</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -626,7 +621,7 @@
               </div>
               <div class="article-title">Las ambulancias de la Comunidad de Madrid: las llamadas por casos de violencia de género y agresiones sexuales se multiplican por las noches y en verano</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -649,7 +644,7 @@
               </div>
               <div class="article-title">Medicamentos en paradero desconocido: más de 500 alertas por robo o pérdida de fármacos en los últimos ocho años</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -671,7 +666,7 @@
               </div>
               <div class="article-title">Así entraron por los aeropuertos españoles más de 10 millones de personas desde el extranjero durante la pandemia</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -693,7 +688,7 @@
               </div>
               <div class="article-title">Tú a Caixabank y yo a Caja Rural: dime dónde vives y te diré en qué banco puedes sacar dinero</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -723,7 +718,7 @@
               </div>
               <div class="article-title">La petición de indulto de Tejero por el 23-F: Maldita accede al archivo para consultar los informes que el Tribunal Supremo y la Fiscalía hicieron sobre él</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -754,7 +749,7 @@
               </div>
               <div class="article-title">Cómo influye en el riesgo de contagio durante una comida familiar que seamos 6 o 10 personas</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -777,7 +772,7 @@
               </div>
               <div class="article-title">¿Puede la Policía entrar en tu casa durante el estado de alarma para comprobar si hay personas no convivientes?</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -807,7 +802,7 @@
               </div>
               <div class="article-title">Interior publica &quot;por error&quot; los DNI de más de 5.000 candidatos para las elecciones del 28-A: ¿cuáles son las consecuencias?</div>
             </div>
-            <button class="toggle-btn" onclick="this.closest('.article-card-exp').classList.toggle('open')" aria-label="Expandir">+</button>
+            <button class="toggle-btn" aria-label="Expandir">+</button>
           </div>
           <div class="card-panel">
             <div class="panel-text-main">
@@ -830,44 +825,41 @@
   <div class="beyond-grid">
 
     <div class="beyond-item">
-      <h3 class="beyond-title">Verificación para reportajes y documentales</h3>
-      <p class="beyond-intro">Trabajo de verificación en flujos de producción con plazos de entrega exigentes:</p>
+      <h3 class="beyond-title">Verificación para reportajes o documentales</h3>
       <ul class="beyond-list">
-        <li><strong>Revisión técnica y documental</strong>: contraste con registros públicos, hemeroteca y herramientas OSINT.</li>
-        <li><strong>800 metros</strong> (Netflix, 2022): análisis de sumario, sentencia y conteo individual de víctimas.</li>
-        <li><strong>De eso no se habla (T3)</strong> (EITB Media, 2025): investigación y verificación en fase de producción.</li>
-        <li><strong>Yo Ibextigo</strong> (La Marea, 2019-2020): verificación de información corporativa de Técnicas Reunidas, Indra y Grifols.</li>
+        <li>Revisión exhaustiva de documentación técnica y tratamiento directo con las fuentes involucradas</li>
+        <li>Verificación del contenido con datos de registros públicos, hemeroteca y herramientas OSINT</li>
+        <li>Capacidad de trabajar en flujos de producción y límites de entrega estrictos de prensa y producción documental</li>
+      </ul>
+      <p class="beyond-copy"><strong>Proyectos destacados:</strong> <a href="https://premioggm.org/trabajo/edicion/2026/audio/se-llamaba-como-yo/" target="_blank" rel="noreferrer">De eso no se habla (T3): Se llamaba como yo</a> (EITB Media, 2025 - investigación y verificación en fase de producción); <a href="https://www.netflix.com/es/title/81275696" target="_blank" rel="noreferrer">800 metros</a> (Netflix, 2022 - análisis de sumario, sentencia y conteo individual de víctimas); Yo Ibextigo (La Marea, 2019-2020 - verificación de información corporativa de <a href="https://www.yoibextigo.lamarea.com/informe/tecnicas-reunidas/que-es/dossier-tecnicas-reunidas-negocios-en-paises-dictatoriales-y-escasa-rentabilidad/" target="_blank" rel="noreferrer">Técnicas Reunidas</a>, <a href="https://www.yoibextigo.lamarea.com/informe/indra/que-es/indra-lider-negocio-antimigratorio-tierra-mar-aire/" target="_blank" rel="noreferrer">Indra</a> y <a href="https://www.yoibextigo.lamarea.com/informe/grifols/que-es/grifols-mantiene-algunas-sociedades-nichos-fiscales/" target="_blank" rel="noreferrer">Grifols</a>)</p>
+    </div>
+
+    <div class="beyond-item">
+      <h3 class="beyond-title">Inteligencia corporativa</h3>
+      <ul class="beyond-list">
+        <li>Análisis rápido ante incidentes, evaluación de riesgos reputacionales y de seguridad y toma de decisiones operativas en entornos de emergencia</li>
+        <li>Monitorización de repositorios con potencial fraudulento e investigación de perfiles e infraestructuras para el análisis de amenazas</li>
+        <li>Aplicación de medidas de protección y OPSEC para blindar la identidad y el entorno al investigar actores de riesgo</li>
+        <li>Diseño de flujos semiautomatizados para el estudio de temáticas, detección de ruido analítico, análisis de sentimiento y establecimiento de alertas tempranas</li>
       </ul>
     </div>
 
     <div class="beyond-item">
       <h3 class="beyond-title">Informática forense y peritaje</h3>
-      <p class="beyond-intro">Analisis tecnico reproducible para aportar validez legal en procesos judiciales:</p>
       <ul class="beyond-list">
-        <li><strong>Cadena de custodia</strong>: adquisición y preservación de evidencias digitales volátiles.</li>
-        <li><strong>Autenticidad y trazabilidad</strong>: verificación de perfiles, auditoría de ficheros y cronología real de publicación.</li>
-        <li><strong>Informes técnicos</strong>: documentación clara, visual y accesible para decisiones operativas y legales.</li>
-      </ul>
-    </div>
-
-    <div class="beyond-item">
-      <h3 class="beyond-title">Inteligencia corporativa</h3>
-      <p class="beyond-intro">Analisis rapido ante incidentes, riesgos reputacionales y amenazas digitales:</p>
-      <ul class="beyond-list">
-        <li><strong>Monitorización de fraude</strong>: seguimiento de repositorios, perfiles e infraestructuras con potencial fraudulento.</li>
-        <li><strong>OPSEC</strong>: medidas de protección para blindar identidad y entorno en investigaciones de riesgo.</li>
-        <li><strong>Flujos semiautomatizados</strong>: detección de ruido analítico, análisis de sentimiento y alertas tempranas.</li>
+        <li>Realización de análisis técnicos reproducibles que aporten validez legal en procesos judiciales garantizando la cadena de custodia</li>
+        <li>Adquisición y preservación de evidencias digitales volátiles en contenido web y multimedia, como publicaciones de redes sociales</li>
+        <li>Análisis técnico para verificar la autenticidad de perfiles o contenidos, auditoría de ficheros manipulados y trazabilidad cronológica (determinar desde cuándo existe un contenido y cuál fue su fecha real de publicación)</li>
+        <li>Elaboración de informes técnicos completos, claros, visuales y accesibles</li>
       </ul>
     </div>
 
     <div class="beyond-item">
       <h3 class="beyond-title">Docencia y formación</h3>
-      <p class="beyond-intro">Acompañamiento tecnico en herramientas de periodismo de datos, verificacion e investigacion digital.</p>
       <ul class="beyond-list">
-        <li><strong>UAGN (2025)</strong>: ponencia sobre impacto de narrativas desinformativas en el sector primario.</li>
-        <li><strong>El País (2024)</strong>: formación en procesos de verificación política para redacción.</li>
-        <li><strong>Máster URJC / Maldita.es (2022-2023)</strong>: clases de periodismo de datos, verificación política y cobertura electoral.</li>
+        <li>Acompañamiento técnico en el aprendizaje guiado de herramientas para el periodismo de datos, verificación e investigación digital</li>
       </ul>
+      <p class="beyond-copy"><strong>Eventos destacados:</strong> Ponencia sobre el impacto de narrativas desinformativas en el sector primario (<a href="https://uagn.es/dialogo-agrario-2024-la-informacion-desinformada-en-agroalimentacion/" target="_blank" rel="noreferrer">UAGN</a>, 2025); Formación de procesos de verificación política en una redacción (El País, 2024); Clases de periodismo de datos, verificación política y cobertura electoral (<a href="https://maldita.es/nosotros/20220831/ultimas-plazas-master-maldita-urjc/" target="_blank" rel="noreferrer">Máster URJC/</a><a href="http://Maldita.es" target="_blank" rel="noreferrer">Maldita.es</a>, 2022-2023)</p>
     </div>
 
   </div>
@@ -881,13 +873,16 @@
   const cards = document.querySelectorAll('.article-card-exp');
   const cardTops = document.querySelectorAll('.card-top');
   const groups = document.querySelectorAll('.timeline-year-group');
-  const countEl = document.getElementById('article-count');
 
-  // Agregar imágenes placeholder como fondo en cada tarjeta
-  cardTops.forEach(cardTop => {
-    const title = (cardTop.querySelector('.article-title')?.textContent || 'Artículo').substring(0, 30);
-    const imageUrl = 'https://via.placeholder.com/800x400?text=' + encodeURIComponent(title);
-    cardTop.style.backgroundImage = 'url("' + imageUrl + '")';
+  const syncToggleState = card => {
+    const toggleBtn = card.querySelector('.toggle-btn');
+    if (!toggleBtn) return;
+    toggleBtn.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
+  };
+
+  // Mostrar solo el mes en las fechas del gutter del timeline
+  document.querySelectorAll('.article-date').forEach(el => {
+    el.textContent = el.textContent.replace(/\s+\d{4}$/, '');
   });
 
   cards.forEach(card => {
@@ -904,12 +899,33 @@
     }
   });
 
+  // Cambiar "Artículo 1" a "Leer más" cuando solo hay un enlace
+  cards.forEach(card => {
+    const links = card.querySelectorAll('.card-read-link');
+    if (links.length === 1) {
+      links[0].textContent = 'Leer más →';
+    }
+
+    syncToggleState(card);
+
+    const toggleBtn = card.querySelector('.toggle-btn');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', event => {
+        event.stopPropagation();
+        card.classList.toggle('open');
+        syncToggleState(card);
+      });
+    }
+  });
+
   cardTops.forEach(cardTop => {
     cardTop.addEventListener('click', event => {
       if (event.target.closest('a, button')) {
         return;
       }
-      cardTop.closest('.article-card-exp').classList.toggle('open');
+      const card = cardTop.closest('.article-card-exp');
+      card.classList.toggle('open');
+      syncToggleState(card);
     });
   });
 
@@ -935,21 +951,24 @@
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      filterBtns.forEach(button => {
+        const isActive = button === btn;
+        button.classList.toggle('active', isActive);
+        button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+
       const filter = btn.dataset.filter;
-      let visible = 0;
+
       cards.forEach(card => {
         const categories = (card.dataset.categories || '').split(/\s+/).filter(Boolean);
         const show = filter === 'all' || categories.includes(filter);
         card.classList.toggle('hidden', !show);
-        if (show) visible++;
       });
+
       groups.forEach(group => {
         const visibleInGroup = group.querySelectorAll('.article-card-exp:not(.hidden)').length;
         group.classList.toggle('hidden', visibleInGroup === 0);
       });
-      if (countEl) countEl.textContent = visible + (visible === 1 ? ' pieza' : ' piezas');
     });
   });
 </script>
