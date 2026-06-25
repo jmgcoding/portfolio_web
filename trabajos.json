@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "a-pensionista",
+    "year": 2025,
+    "month": 9,
+    "categories": [
+      "datos",
+      "desinfo",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "\"¡Alarma, pensionista!\": cuidado con los canales de YouTube que publican vídeos para alertar, desinformar y confundir sobre las pensiones de jubilación"
+      ],
+      "en": [
+        "\"Pensioner alert!\": beware of the YouTube channels posting videos to alarm, mislead and confuse people about retirement pensions"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Detectamos muchos vídeos de IA con mensajes de alerta para jubilados que se posicionaban entre los contenidos sobre pensiones. Hice una búsqueda de estos canales de YouTube y vi que varios estaban coordinados según el análisis de los metadatos."
+      ],
+      "en": [
+        "We found many AI-generated videos with alarm messages targeting pensioners that were ranking high in pension-related content searches. I researched these YouTube channels and found that several were coordinated, based on metadata analysis."
+      ]
+    },
+    "techniques": [
+      "rastreo en redes sociales",
+      "análisis de datos",
+      "OSINT",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditobulo/20250908/alarma-pensionista-youtube-canales/"
+    ]
+  },
+  {
+    "id": "a-tarifa",
+    "year": 2025,
+    "month": 8,
+    "categories": [
+      "desinfo",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "Qué sabemos sobre los proyectos urbanísticos en las zonas afectadas por los incendios en Tarifa (Cádiz)"
+      ],
+      "en": [
+        "What we know about urban development projects in the areas affected by the wildfires in Tarifa (Cádiz)"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "En un vídeo viral se especulaba que los incendios forestales de Cádiz buscaban recalificar terrenos y beneficiar proyectos urbanísticos.",
+        "Contrasté los datos geoespaciales de los incendios con los planes municipales y las parcelas del catastro, así como la extensión del Parque Natural del Estrecho. Comprobé la naturaleza del suelo afectado y hablé con ayuntamiento, promotores y expertos urbanísticos."
+      ],
+      "en": [
+        "A viral video speculated that the wildfires in Cádiz were deliberately set to reclassify land and benefit urban development projects.",
+        "I cross-referenced the geospatial data from the fires with municipal planning documents and cadastral plots, as well as the boundaries of the Parque Natural del Estrecho. I checked the nature of the affected land and spoke with the local council, developers and urban planning experts."
+      ]
+    },
+    "techniques": [
+      "geolocalización",
+      "OSINT",
+      "fuentes humanas",
+      "revisión legislativa"
+    ],
+    "links": [
+      "https://maldita.es/malditobulo/20250822/incendio-tarifa-proyectos-urbanisticos/"
+    ]
+  },
+  {
+    "id": "a-agrovoltaica",
+    "year": 2025,
+    "month": 7,
+    "categories": [
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "Situación de la agrovoltaica en España: proyectos y principales barreras para su implantación"
+      ],
+      "en": [
+        "The state of agrivoltaics in Spain: projects and main barriers to deployment"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Apenas se había cubierto la situación normativa de esta solución para el sector primario, que combina placas fotovoltaicas y cultivos.",
+        "Intenté poner sobre la mesa el tema analizando informes técnicos y entrevistando a diversos expertos para explicar las tipologías y los motivos de la lenta implantación en España."
+      ],
+      "en": [
+        "Very little had been written about the regulatory situation of this solution for the agricultural sector, which combines solar panels and crops.",
+        "I brought the topic to light by analysing technical reports and interviewing various experts to explain the different types and the reasons behind the slow uptake in Spain."
+      ]
+    },
+    "techniques": [
+      "revisión legislativa",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/clima/20250703/agrovoltaica-placas-solares-agricultura-espana/"
+    ]
+  },
+  {
+    "id": "a-china",
+    "year": 2025,
+    "month": 7,
+    "categories": [
+      "desinfo",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "Cuidado con este vídeo de una montaña cubierta por placas solares en China que circula descontextualizado en España y otros países"
+      ],
+      "en": [
+        "Beware of this video of a mountain covered in solar panels in China circulating without context in Spain and other countries"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Este vídeo circulaba sin ningún contexto atribuido a varios países. Para verificar visualmente su localización crucé imágenes de un blog especializado en puentes de 2009 y recurrimos a las imágenes de satélite del proveedor chino Baidu para encontrar el punto exacto de filmación. A través de una VPN conseguí localizar el vídeo original en Douyin (la marca china de TikTok)."
+      ],
+      "en": [
+        "This video was circulating without any context, attributed to various countries. To visually verify its location, I cross-referenced images from a specialist bridge blog from 2009 and used satellite imagery from Chinese provider Baidu to find the exact filming location. Through a VPN, I tracked down the original video on Douyin (the Chinese version of TikTok)."
+      ]
+    },
+    "techniques": [
+      "rastreo en redes sociales",
+      "verificación visual",
+      "hemeroteca digital",
+      "OSINT"
+    ],
+    "links": [
+      "https://maldita.es/malditobulo/20250523/montana-placas-solares-china/"
+    ]
+  },
+  {
+    "id": "a-olivos",
+    "year": 2025,
+    "month": 6,
+    "categories": [
+      "desinfo",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "Esta planta fotovoltaica no destruyó un \"enorme olivar\" en Granada: es Cáceres y se quitaron un máximo de 16 olivos"
+      ],
+      "en": [
+        "This solar farm did not destroy a \"huge olive grove\" in Granada: it's in Cáceres and at most 16 olive trees were removed"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Rastreé el origen de un vídeo en redes sociales para mostrar la ubicación real de una planta fotovoltaica y saber si su construcción había afectado a los cultivos de la zona.",
+        "Recurrí a imágenes satelitales históricas, los archivos del proyecto y revisé los registros administrativos agrícolas, así como toda la trayectoria del tendido eléctrico desde la planta a la subestación."
+      ],
+      "en": [
+        "I traced the origin of a social media video to show the real location of a solar plant and find out whether its construction had affected crops in the area.",
+        "I used historical satellite imagery and project archives, reviewed agricultural administrative records, and traced the entire route of the power lines from the plant to the substation."
+      ]
+    },
+    "techniques": [
+      "OSINT",
+      "verificación visual",
+      "revisión legislativa",
+      "rastreo en redes sociales"
+    ],
+    "links": [
+      "https://maldita.es/malditobulo/20251028/fotovoltaica-olivos-granada-caceres/"
+    ]
+  },
+  {
+    "id": "a-pravda-pair",
+    "year": 2025,
+    "month": 5,
+    "categories": [
+      "datos",
+      "desinfo"
+    ],
+    "titles": {
+      "es": [
+        "Historia de la expansión de la red rusa Pravda en España: más de 150.000 publicaciones alcanzando sus máximos picos en eventos como el apagón o el asesinato de Portnov",
+        "Un tercio de su contenido acaba en Pravda: cómo funcionan los canales de Telegram que alimentan a la red rusa en español"
+      ],
+      "en": [
+        "How the Russian Pravda network expanded in Spain: over 150,000 posts peaking during events like the blackout and the Portnov assassination",
+        "A third of their content ends up on Pravda: how the Telegram channels feeding the Russian network in Spanish work"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Queríamos comprender cómo la red de influencia rusa Pravda instrumentaliza crisis nacionales para propagar narrativas de caos y desinformación. Para ello, scrapeé cerca de 150.000 publicaciones y crucé los picos de publicaciones con diversos hitos informativos. Realicé un estudio de caso minuto a minuto durante el apagón del 28 de abril de 2025 y apliqué técnicas de procesamiento del lenguaje natural (NLP) para mapear la evolución temática del discurso.",
+        "También analicé la red de canales satélite de Telegram descargando sus mensajes para medir los porcentajes de réplica y los tiempos de difusión. Detecté comunidades entre los canales y analicé los métodos de financiación de algunos de ellos."
+      ],
+      "en": [
+        "We wanted to understand how the Russian Pravda influence network exploits national crises to spread chaos narratives and disinformation. I scraped nearly 150,000 posts and cross-referenced publication peaks with key news events. I conducted a minute-by-minute case study during the blackout of 28 April 2025 and applied natural language processing (NLP) techniques to map the thematic evolution of the discourse.",
+        "I also analysed the network of satellite Telegram channels by downloading their messages to measure replication rates and diffusion timings. I identified communities among the channels and analysed the funding methods of some of them."
+      ]
+    },
+    "techniques": [
+      "rastreo en redes sociales",
+      "web scraping",
+      "análisis de datos",
+      "procesamiento de lenguaje natural",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/investigaciones/20250530/pravda-news-espanol-espana/",
+      "https://maldita.es/investigaciones/20250710/canales-telegram-pravda/"
+    ]
+  },
+  {
+    "id": "a-apagon",
+    "year": 2025,
+    "month": 5,
+    "categories": [
+      "datos",
+      "desinfo"
+    ],
+    "titles": {
+      "es": [
+        "La desinformación sobre el apagón dio la vuelta al mundo: medios suplantados, fenómenos atmosféricos raros y redes rusas"
+      ],
+      "en": [
+        "The disinformation about the blackout went around the world: impersonated media, unusual atmospheric phenomena and Russian networks"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Rastreé el origen y el alcance de diferentes desinformaciones del apagón del 28 de abril de 2025 en redes sociales. Encontré que la primera recurrencia de algunos de ellos en redes llevaba al canal chino CGTN."
+      ],
+      "en": [
+        "I traced the origin and reach of different disinformation narratives about the blackout of 28 April 2025 on social media. I found that the earliest appearance of some of them on social networks led back to the Chinese channel CGTN."
+      ]
+    },
+    "techniques": [
+      "rastreo en redes sociales",
+      "OSINT"
+    ],
+    "links": [
+      "https://maldita.es/malditobulo/20250507/apagon-internacional-desinformacion/"
+    ]
+  },
+  {
+    "id": "a-pais-origen",
+    "year": 2025,
+    "month": 4,
+    "categories": [
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "País de origen: cuándo es obligatorio que se incluya en la etiqueta de un alimento"
+      ],
+      "en": [
+        "Country of origin: when must it be included on a food label?"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "¿Por qué es obligatorio que las patatas frescas tengan su país de origen en la etiqueta pero en una bolsa de patatas fritas esta información no se incluye? Estudié la normativa europea y consulté a varios expertos para aclarar qué alimentos están obligados a declarar su procedencia. Cuando son alimentos importados y procesados el origen se convierte además en un cálculo aduanero."
+      ],
+      "en": [
+        "Why must fresh potatoes display their country of origin on the label, but a bag of crisps doesn't have to? I studied European regulations and consulted several experts to clarify which foods are required to declare their origin. When it comes to imported and processed foods, origin also involves a customs calculation."
+      ]
+    },
+    "techniques": [
+      "revisión legislativa",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/alimentacion/20250415/pais-origen-alimentos-obligatorio/"
+    ]
+  },
+  {
+    "id": "a-oms-carne",
+    "year": 2025,
+    "month": 3,
+    "categories": [
+      "datos",
+      "desinfo"
+    ],
+    "titles": {
+      "es": [
+        "Cronología de una desinformación: desde \"la OMS prohíbe la carne\" hasta una \"guerra contra la agricultura\""
+      ],
+      "en": [
+        "Timeline of a disinformation campaign: from \"the WHO bans meat\" to a \"war on agriculture\""
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Rastreé el origen de unos bulos sobre que las élites mundiales quieren prohibir el consumo de carne. La investigación llevó a webs sospechosas cuyos contenidos son amplificados en redes sociales por perfiles con un gran alcance y en multitud de idiomas. Son cuentas que saltan de un tema a otro (como la migración o las políticas LGTBI) para generar polarización y desinformación en el debate digital."
+      ],
+      "en": [
+        "I traced the origin of hoaxes claiming that world elites want to ban meat consumption. The investigation led to suspicious websites whose content is amplified on social media by high-reach accounts in many languages. These accounts jump between topics (such as migration or LGBTQ+ policies) to generate polarisation and disinformation in digital discourse."
+      ]
+    },
+    "techniques": [
+      "rastreo en redes sociales",
+      "mapeo de difusión",
+      "monitoreo de narrativas",
+      "análisis de operaciones de influencia"
+    ],
+    "links": [
+      "https://maldita.es/malditobulo/20250328/oms-carne-guerra-agricultura-desinformacion/"
+    ]
+  },
+  {
+    "id": "a-temporada-naranjas",
+    "year": 2025,
+    "month": 2,
+    "categories": [
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "Naranjas en agosto y uvas en abril: qué significa que una fruta o verdura sea o no de temporada"
+      ],
+      "en": [
+        "Oranges in August and grapes in April: what does it actually mean for a fruit or vegetable to be in season?"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Intentamos comer productos de temporada porque son más baratos y es más sostenible, pero ¿hay algún calendario bueno? Unos dicen que los tomates son de verano, pero otros dicen que son de todo el año.",
+        "Busqué muchos calendarios, los contrasté y consulté a numerosos expertos. En conclusión, no hay una definición oficial de producto de temporada y sí mucho debate sobre el tema."
+      ],
+      "en": [
+        "We try to eat seasonal produce because it's cheaper and more sustainable, but is there a reliable calendar? Some say tomatoes are a summer fruit, while others say they're available year-round.",
+        "I looked at many calendars, compared them and consulted numerous experts. The conclusion: there is no official definition of seasonal produce, and there is a great deal of debate on the subject."
+      ]
+    },
+    "techniques": [
+      "revisión legislativa",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/malditateexplica/20250218/frutas-verduras-temporada-significado/"
+    ]
+  },
+  {
+    "id": "a-temporada-provincia",
+    "year": 2025,
+    "month": 2,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "Consulta qué frutas y verduras están de temporada en tu provincia"
+      ],
+      "en": [
+        "Find out which fruits and vegetables are in season in your province"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Hay muchos calendarios de consumo de temporada por internet, pero pocos de ellos incluyen datos y no suelen aclarar su metodología. Analicé y procesé con programación los del Calendario de Siembra, Recolección y Comercialización del Ministerio de Agricultura de España para hacer unos gráficos informativos por productos y provincias. También hicimos un ranking de los más cultivados en invernadero."
+      ],
+      "en": [
+        "There are many seasonal consumption calendars online, but few include data and most don't explain their methodology. I analysed and processed the Sowing, Harvesting and Marketing Calendar from Spain's Ministry of Agriculture through programming to create informative charts by product and province. We also produced a ranking of the crops most commonly grown in greenhouses."
+      ]
+    },
+    "techniques": [
+      "análisis estadístico avanzado",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20250218/consulta-frutas-verduras-temporada/"
+    ]
+  },
+  {
+    "id": "a-electoral-tipologia",
+    "year": 2024,
+    "month": 7,
+    "categories": [
+      "datos",
+      "desinfo"
+    ],
+    "titles": {
+      "es": [
+        "De desacreditar el voto a sembrar dudas sobre el recuento: la desinformación contra las instituciones en un año superelectoral en España"
+      ],
+      "en": [
+        "From discrediting the vote to casting doubt on the count: disinformation against democratic institutions in a bumper election year in Spain"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Después de años viendo desinformaciones sobre las elecciones que cuestionan la integridad del proceso y tratan de incidir en el voto, intenté diseñar una tipología o una clasificación de este tipo de contenidos."
+      ],
+      "en": [
+        "After years of covering disinformation about elections that question the integrity of the process and try to influence the vote, I attempted to design a typology or classification of this type of content."
+      ]
+    },
+    "techniques": [
+      "clasificación y categorización",
+      "análisis de datos",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20240703/integridad-electoral-elecciones-europeas-efcsn/"
+    ]
+  },
+  {
+    "id": "a-junts-actas",
+    "year": 2024,
+    "month": 6,
+    "categories": [
+      "datos",
+      "desinfo",
+      "verificacion",
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "No es solo Junts: las posibles anomalías en cientos de mesas son marginales y no influyen en los resultados definitivos de las europeas",
+        "Los errores en las actas electorales: ¿se pueden corregir?"
+      ],
+      "en": [
+        "It's not just Junts: the possible anomalies in hundreds of polling stations are marginal and do not affect the final European results",
+        "Errors in electoral records: can they be corrected?"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "La desinformación electoral me parece una de las más interesantes, porque es un ejemplo evidente de campañas que tratan de incidir directamente en la política y que son previsibles.",
+        "Tras las europeas de 2024 se decía que las actas electorales estaban siendo modificadas para beneficiar a Junts. Hice un análisis a gran escala para detectar estos valores anómalos, que parecían deberse a errores humanos.",
+        "También quise dar un contexto sólido y revisé las resoluciones de las Juntas Electorales y consulté a expertos en la materia para dejar claro que los errores son escenarios ordinarios y corregibles por las garantías del sistema."
+      ],
+      "en": [
+        "Electoral disinformation is, to me, one of the most interesting kinds, because it's a clear example of campaigns that try to directly influence politics and are entirely predictable.",
+        "After the 2024 European elections, it was claimed that electoral records were being altered to benefit Junts. I conducted a large-scale analysis to detect these anomalous values, which appeared to be the result of human error.",
+        "I also wanted to provide solid context and reviewed the rulings of the Electoral Committees and consulted subject matter experts to make clear that errors are ordinary scenarios and correctable through the system's safeguards."
+      ]
+    },
+    "techniques": [
+      "análisis de datos",
+      "detección de anomalías",
+      "revisión legislativa",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/malditateexplica/20240614/recuento-mesas-electorales-anomalias-europeas/",
+      "https://maldita.es/malditateexplica/20240617/errores-actas-mesas-electorales/"
+    ]
+  },
+  {
+    "id": "a-votaciones",
+    "year": 2024,
+    "month": 6,
+    "categories": [
+      "datos",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "¿PP y PSOE siempre votan igual en Europa?¿Cuánto coinciden el resto de partidos? Los datos de las votaciones en el Parlamento Europeo"
+      ],
+      "en": [
+        "Do PP and PSOE always vote the same way in Europe? How often do other parties agree? Data on voting in the European Parliament"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Para contrastar el discurso de campaña de Vox que decía que PP y PSOE votan igual en Europa hice un análisis de la compleja actividad parlamentaria. Usé los datos de <a href=\"https://data.europa.eu/en/publications/use-cases/parltrack\" target=\"_blank\" rel=\"noopener\">Parltrack</a> para procesar todas las votaciones de la legislatura. Esto permitió mapear las confluencias de voto de los eurodiputados españoles y sus respectivos grupos."
+      ],
+      "en": [
+        "To fact-check Vox's campaign claim that PP and PSOE always vote the same way in Europe, I analysed the complex parliamentary activity. I used data from <a href=\"https://data.europa.eu/en/publications/use-cases/parltrack\" target=\"_blank\" rel=\"noopener\">Parltrack</a> to process all votes of the legislative term. This allowed me to map the voting convergences of Spanish MEPs and their respective groups."
+      ]
+    },
+    "techniques": [
+      "análisis estadístico avanzado",
+      "visualización de datos",
+      "análisis de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20240606/votaciones-diputados-espanoles-parlamento-europeo/"
+    ]
+  },
+  {
+    "id": "a-mesas-2023",
+    "year": 2024,
+    "month": 5,
+    "categories": [
+      "datos",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "Cuáles fueron las excusas más frecuentes para librarse de una mesa electoral en las elecciones generales y locales de 2023"
+      ],
+      "en": [
+        "The most common excuses used to get out of polling station duty in Spain's 2023 general and local elections"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "En 2023 hubo elecciones en el mes de julio y al pillar en vacaciones, el tema de las excusas para no ir a las mesas electorales fue muy comentado.",
+        "Pedimos información a la Junta Electoral Central y nos pasaron un informe inédito que resumimos con varios gráficos.",
+        "Además de explicar los motivos más frecuentes para librarse de las mesas, también detallamos la limitación de los datos: reconocían no tener cifras completas del país porque dependía de  los ayuntamientos y de las más de 300 juntas electorales."
+      ],
+      "en": [
+        "Spain held elections in July 2023, and since they coincided with the holiday season, the topic of excuses for avoiding polling station duty was widely discussed.",
+        "We requested information from the Central Electoral Committee and received an unpublished report which we summarised with several charts.",
+        "In addition to explaining the most common reasons for getting out of polling station duty, we also detailed the limitations of the data: they acknowledged having incomplete national figures, as it depended on local councils and the more than 300 electoral boards."
+      ]
+    },
+    "techniques": [
+      "solicitudes de transparencia",
+      "análisis de datos",
+      "revisión legislativa",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20240516/motivos-exclusion-mesas-electorales-2023/"
+    ]
+  },
+  {
+    "id": "a-voto-rural",
+    "year": 2024,
+    "month": 4,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "Voto rural y urbano en el País Vasco: el voto a PNV y EH Bildu se concentra sobre todo en los pequeños municipios y se diluye en las ciudades"
+      ],
+      "en": [
+        "Rural and urban vote in the Basque Country: the vote for PNV and EH Bildu is concentrated mainly in small municipalities and fades in cities"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Los análisis postelectorales tienen una vida útil muy corta. Suele haber un aluvión de información y la clave es encontrar un enfoque simple y acertado. En este caso demostramos con gráficos cómo el voto al PNV y Bildu se concentró en municipios pequeños.",
+        "Este artículo ejemplifica un trabajo de años. He cubierto la gran mayoría de procesos electorales regionales, nacionales y europeos desde diciembre de 2018 hasta octubre de 2025. Las <a href=\"https://www.elmundo.es/espana/2018/12/08/5c0ac8e121efa09c2f8b45f9.html\" target=\"_blank\" rel=\"noopener\">elecciones andaluzas de 2018 en las que Vox entró a las instituciones</a> fueron las primeras que cubrí como periodista de datos."
+      ],
+      "en": [
+        "Post-election analyses have a very short shelf life. There is usually an avalanche of information and the key is finding a simple, sharp angle. In this case, we showed with charts how the vote for PNV and Bildu was concentrated in small municipalities.",
+        "This article exemplifies years of work. I covered the great majority of regional, national and European electoral processes from December 2018 to October 2025. The <a href=\"https://www.elmundo.es/espana/2018/12/08/5c0ac8e121efa09c2f8b45f9.html\" target=\"_blank\" rel=\"noopener\">2018 Andalusian elections in which Vox entered the institutions</a> were the first I covered as a data journalist."
+      ]
+    },
+    "techniques": [
+      "análisis de datos",
+      "cobertura electoral",
+      "visualización de datos",
+      "mapas interactivos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20240422/voto-rural-urbano-autonomicas-pais-vasco/"
+    ]
+  },
+  {
+    "id": "a-abertzale-catalunya",
+    "year": 2024,
+    "month": 4,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "El voto a la 'izquierda abertzale' en las elecciones autonómicas del País Vasco: de Herri Batasuna a EH Bildu",
+        "De CiU y el 'pujolismo' al 'procés' y la amnistía: así ha evolucionado el voto independentista en Cataluña"
+      ],
+      "en": [
+        "The vote for the 'izquierda abertzale' in the Basque regional elections: from Herri Batasuna to EH Bildu",
+        "From CiU and 'pujolismo' to the 'procés' and the amnesty: how the independence vote in Catalonia has evolved"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "En 2024 hubo elecciones vascas y catalanas con un mes de diferencia y decidimos hacer unas cronologías breves de la evolución del voto nacionalista e independentista.",
+        "Exigió un trabajo de documentación y hemeroteca para repasar las candidaturas históricas y señalar los momentos clave de cada período político. Lo complicado fue condensarlo en un formato de artículo breve con gráficos claros que mostrasen estas evoluciones."
+      ],
+      "en": [
+        "In 2024, Basque and Catalan elections were held a month apart and we decided to produce brief timelines of how the nationalist and independence vote had evolved.",
+        "It required extensive archival and press research to review historical candidacies and identify the key moments of each political period. The challenge was condensing it into a brief article format with clear charts showing these evolutions."
+      ]
+    },
+    "techniques": [
+      "hemeroteca digital",
+      "documentación",
+      "visualización de datos",
+      "análisis de datos",
+      "cobertura electoral"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20240417/evolucion-izquierda-abertzale-pais-vasco-autonomicas/",
+      "https://maldita.es/malditodato/20240508/evolucion-voto-independentista-catalunya/"
+    ]
+  },
+  {
+    "id": "a-partidos",
+    "year": 2024,
+    "month": 2,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "Arqueología política: casi 2.000 partidos creados durante la democracia ya no existen"
+      ],
+      "en": [
+        "Political archaeology: nearly 2,000 parties created during Spain's democracy no longer exist"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Conseguí a través de la ley de transparencia el listado inédito de todos los partidos políticos inscritos en España desde la Transición.",
+        "Extraje y transformé la información en pdf y analicé la desaparición de partidos, los picos de inscripción o siglas que nunca fueron legalizadas. También revisé la hemeroteca posfranquista sobre la legalización de los partidos. Un ejercicio de memoria histórica interesante."
+      ],
+      "en": [
+        "Through freedom of information legislation, I obtained the unpublished list of every political party registered in Spain since the Transition to democracy.",
+        "I extracted and transformed the PDF data and analysed the disappearance of parties, registration peaks, and acronyms that were never legalised. I also reviewed post-Franco newspaper archives on the legalisation of parties. An interesting exercise in historical memory."
+      ]
+    },
+    "techniques": [
+      "limpieza y depuración de datos",
+      "solicitudes de transparencia",
+      "hemeroteca digital",
+      "fuentes humanas",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20240229/partidos-politicos-registro-ministerio-interior/"
+    ]
+  },
+  {
+    "id": "a-goya-2023",
+    "year": 2024,
+    "month": 2,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "No es Goya todo lo que reluce: datos sobre el cine producido en España en 2023"
+      ],
+      "en": [
+        "Not everything that glitters is a Goya: data on films produced in Spain in 2023"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Scrapeé y analicé todas las películas proyectadas en las salas de cine de España en 2023 para ir más allá del foco de los Goya. El objetivo era visibilizar los reconocimientos del sector con gráficos, textos breves y una metodología rigurosa."
+      ],
+      "en": [
+        "I scraped and analysed every film screened in Spanish cinemas in 2023 to go beyond the Goya awards spotlight. The aim was to make the industry's full recognition visible through charts, brief texts and a rigorous methodology."
+      ]
+    },
+    "techniques": [
+      "web scraping",
+      "análisis estadístico avanzado",
+      "análisis de datos",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20240209/cine-espanol-2023-premios-goya/"
+    ]
+  },
+  {
+    "id": "a-agosto",
+    "year": 2023,
+    "month": 8,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "El día del verano en que las ciudades se quedan más vacías es el segundo sábado de agosto: en 2022 perdieron a una cuarta parte de sus habitantes"
+      ],
+      "en": [
+        "The summer day when Spanish cities empty most is the second Saturday of August: in 2022 they lost a quarter of their residents"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Quise describir estadísticamente cuál es el día exacto del verano en el que las ciudades españolas se vacían más por las vacaciones. Para ello utilicé los microdatos de movilidad anonimizados del Ministerio de Transportes y crucé las pernoctaciones diarias con las medias habituales de residencia y los desplazamientos vacacionales."
+      ],
+      "en": [
+        "I wanted to statistically describe the exact day of summer when Spanish cities empty the most due to holidays. To do this, I used anonymised mobility microdata from the Ministry of Transport and cross-referenced daily overnight stays with usual residential averages and holiday movements."
+      ]
+    },
+    "techniques": [
+      "análisis de datos",
+      "visualización de datos",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20230810/dia-agosto-viajes-ciudades-vacias/"
+    ]
+  },
+  {
+    "id": "a-ribera",
+    "year": 2023,
+    "month": 7,
+    "categories": [
+      "desinfo",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "No, la ministra Teresa Ribera no ha viajado el 10 de julio a Valladolid en Falcon",
+        "Datos y desinformaciones sobre Teresa Ribera, el Falcon y su llegada en bici a un encuentro climático en Valladolid"
+      ],
+      "en": [
+        "No, Minister Teresa Ribera did not travel to Valladolid on a government Falcon jet on 10 July",
+        "Data and disinformation about Teresa Ribera, the Falcon and her bicycle arrival at a climate event in Valladolid"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Se viralizó rápidamente que una ministra del Gobierno había ido en avión a una cumbre climática y que además aparentaba ser sostenible cogiendo una bici momentos antes de su llegada ante la prensa.",
+        "Calibramos su impacto en redes, contrastamos las numerosas respuestas de su gabinete y reconstruimos su ruta en bici por la ciudad mediante verificación visual."
+      ],
+      "en": [
+        "It quickly went viral that a government minister had flown to a climate summit and was then putting on a show of sustainability by arriving on a bicycle just before facing the press.",
+        "We measured its reach on social media, cross-checked the numerous responses from her press team and reconstructed her cycling route through the city using visual verification."
+      ]
+    },
+    "techniques": [
+      "rastreo en redes sociales",
+      "verificación visual",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/clima/20230710/teresa-ribera-falcon-valladolid/",
+      "https://maldita.es/malditobulo/20230713/teresa-ribera-falcon-bici-valladolid/"
+    ]
+  },
+  {
+    "id": "a-spam",
+    "year": 2023,
+    "month": 4,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "El 'spam' parlamentario: las estructuras repetitivas en miles de preguntas al Gobierno",
+        "Estrategias del Gobierno para no responder a determinadas preguntas parlamentarias: no contestar a lo que se pregunta, jugar con los plazos reglamentarios o contestar en lote"
+      ],
+      "en": [
+        "Parliamentary 'spam': the repetitive structures in thousands of questions to the government",
+        "Government strategies for avoiding answers to certain parliamentary questions: not answering what was asked, playing with procedural deadlines or replying in bulk"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Hicimos un análisis de las preguntas parlamentarias en las pasadas legislaturas junto a la organización Political Watch.",
+        "Mostré estadísticamente cómo se inflan las estadísticas de actividad mediante preguntas repetitivas y analizamos varias casuísticas curiosas como las preguntas que nunca se contestaban.",
+        "También estuvimos en el Congreso hablando con algunos diputados para aportar más contexto. Fue un ejercicio de reporterismo y análisis de datos públicos que no suelen ser explorados por la dificultad de su formato, pero que generan una gran fuente de información."
+      ],
+      "en": [
+        "We analysed parliamentary questions from past legislative terms together with the organisation Political Watch.",
+        "I showed statistically how activity statistics are inflated through repetitive questions and we analysed several curious cases, such as questions that were never answered.",
+        "We also went to Parliament to speak with some MPs to add more context. It was an exercise in reporting and public data analysis — data rarely explored due to its complex format, but which offers a great source of information."
+      ]
+    },
+    "techniques": [
+      "análisis de datos",
+      "solicitudes de transparencia",
+      "visualización de datos",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20230427/spam-parlamentario-congreso-preguntas/",
+      "https://maldita.es/malditodato/20230428/congreso-preguntas-parlamentarias-gobierno-respuestas/"
+    ]
+  },
+  {
+    "id": "a-dinosaurios",
+    "year": 2023,
+    "month": 3,
+    "categories": [
+      "desinfo",
+      "verificacion"
+    ],
+    "titles": {
+      "es": [
+        "Bulos y desinformaciones sobre la aparición de dinosaurios vivos en Japón"
+      ],
+      "en": [
+        "Hoaxes and disinformation about the alleged appearance of living dinosaurs in Japan"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "A veces te encuentras con cosas tan peculiares como gente diciendo que hay dinosaurios vivos en Japón.",
+        "Era obvio que los dinosaurios de los vídeos no eran reales, pero buscando un poco más de dónde podrían haber salido estas teorías encontramos el perfil de la persona que parecía haber iniciado el rumor.",
+        "En esta conspiración también encajaban otras noticias como el supuesto huevo de Godzilla que se había encontrado en una playa japonesa y era una boya o que Japón había hecho recientemente un recuento de sus costas y había duplicado el número de islas de su archipiélago."
+      ],
+      "en": [
+        "Sometimes you come across things as peculiar as people claiming there are living dinosaurs in Japan.",
+        "It was obvious the dinosaurs in the videos weren't real, but digging a little deeper into where these theories might have come from, we found the profile of the person who appeared to have started the rumour.",
+        "This conspiracy also tied in with other stories, such as the alleged Godzilla egg found on a Japanese beach which turned out to be a buoy, or Japan having recently counted its coastline and doubled the number of islands in the archipelago."
+      ]
+    },
+    "techniques": [
+      "rastreo en redes sociales",
+      "rastreo de origen",
+      "análisis de teorías conspirativas"
+    ],
+    "links": [
+      "https://maldita.es/malditobulo/20230306/desinformaciones-dinosaurios-islas-japon/"
+    ]
+  },
+  {
+    "id": "a-ambulancias",
+    "year": 2022,
+    "month": 7,
+    "categories": [
+      "datos",
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "Las ambulancias de la Comunidad de Madrid: las llamadas por casos de violencia de género y agresiones sexuales se multiplican por las noches y en verano"
+      ],
+      "en": [
+        "Ambulances in the Community of Madrid: calls for gender-based violence and sexual assault multiply at night and in summer"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Otra intensa pelea de transparencia: <a href=\"https://www.eldiario.es/autores/yuly_jara/\" target=\"_blank\" rel=\"noopener\">Yuly</a> consiguió los datos de respuesta de las ambulancias de Madrid que permitían ver casi el minuto a minuto de las emergencias: infartos, caídas, intentos de suicido, heridas por armas.",
+        "Yo hice el trabajo de limpiar y depurar los datos: scraping de cientos de páginas en pdf, detección de errores, cálculo del tiempo de respuesta de las ambulancias…"
+      ],
+      "en": [
+        "Another hard-fought transparency battle: <a href=\"https://www.eldiario.es/autores/yuly_jara/\" target=\"_blank\" rel=\"noopener\">Yuly</a> obtained the Madrid ambulance response data, which allowed us to see emergencies almost minute by minute: heart attacks, falls, suicide attempts, weapon injuries.",
+        "I did the data cleaning and wrangling work: scraping hundreds of PDF pages, detecting errors, calculating ambulance response times…"
+      ]
+    },
+    "techniques": [
+      "scraping de PDF",
+      "análisis estadístico avanzado",
+      "limpieza y depuración de datos",
+      "diseño metodológico"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20220729/ambulancias-madrid-violencia-genero-agresiones-verano/"
+    ]
+  },
+  {
+    "id": "a-medicamentos",
+    "year": 2022,
+    "month": 7,
+    "categories": [
+      "datos",
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "Medicamentos en paradero desconocido: más de 500 alertas por robo o pérdida de fármacos en los últimos ocho años"
+      ],
+      "en": [
+        "Drugs gone missing: more than 500 alerts for theft or loss of medicines in the last eight years"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Descubrí que existía un formulario para notificar robos de fármacos y solicité a la AEMPS el histórico completo para investigar qué ocurría con ellos.",
+        "Fue la continuación de <a href=\"https://www.elmundo.es/ciencia-y-salud/salud/2018/11/12/5bbe2da7e5fdea26578b4620.html\" target=\"_blank\" rel=\"noopener\">un reportaje que hice como becario en El Mundo</a>.",
+        "Hubo que hacer un trabajo complejo de clasificación de medicamentos y hablamos con fuentes de la industria y la Guardia Civil para comprender el contexto de estas desapariciones. Muchas veces son falsificados o vendidos en el mercado negro."
+      ],
+      "en": [
+        "I discovered that a form existed for reporting drug thefts and requested the complete historical records from the Spanish Medicines Agency (AEMPS) to investigate what was happening to them.",
+        "It was the follow-up to <a href=\"https://www.elmundo.es/ciencia-y-salud/salud/2018/11/12/5bbe2da7e5fdea26578b4620.html\" target=\"_blank\" rel=\"noopener\">a story I wrote as an intern at El Mundo</a>.",
+        "Complex drug classification work was required, and we spoke with industry sources and the Civil Guard to understand the context of these disappearances. They are often counterfeited or sold on the black market."
+      ]
+    },
+    "techniques": [
+      "visualización de datos",
+      "scraping de PDF",
+      "clasificación y categorización",
+      "investigación documental",
+      "fuentes humanas",
+      "solicitudes de transparencia"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20220705/medicamentos-paradero-desconocido-alertas-robo-perdida/"
+    ]
+  },
+  {
+    "id": "a-destino-espana",
+    "year": 2022,
+    "month": 3,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "Así entraron por los aeropuertos españoles más de 10 millones de personas desde el extranjero durante la pandemia"
+      ],
+      "en": [
+        "How more than 10 million people entered Spain through airports from abroad during the pandemic"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Mi compañero <a href=\"https://www.infolibre.es/autores/sergio-sangiao/\" target=\"_blank\" rel=\"noopener\">Sergio</a> obtuvo a través de transparencia los datos individuales de formularios sanitarios para fiscalizar el control de pasajeros durante la pandemia.",
+        "Yo presté el apoyo técnico para procesar millones de registros con Python y diseñé un scrollytelling en Flourish para condensar todo el potencial de estos datos."
+      ],
+      "en": [
+        "My colleague <a href=\"https://www.infolibre.es/autores/sergio-sangiao/\" target=\"_blank\" rel=\"noopener\">Sergio</a> obtained through freedom of information the individual data from health forms used to monitor passenger control during the pandemic.",
+        "I provided the technical support to process millions of records with Python and designed a scrollytelling piece in Flourish to condense all the potential of this data."
+      ]
+    },
+    "techniques": [
+      "visualización de datos",
+      "análisis estadístico avanzado",
+      "diseño scrollytelling",
+      "diseño metodológico"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20220324/destino-espana/"
+    ]
+  },
+  {
+    "id": "a-bancos-2022",
+    "year": 2022,
+    "month": 1,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "Tú a Caixabank y yo a Caja Rural: dime dónde vives y te diré en qué banco puedes sacar dinero"
+      ],
+      "en": [
+        "You to Caixabank and me to Caja Rural: tell me where you live and I'll tell you which bank you can use"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Me bajé los datos de todas las oficinas bancarias de España e hice un análisis geográfico para plasmar el impacto de años de fusiones y cierres en el sector.",
+        "Mediante programación, geolocalizamos, mapeamos y verificamos la ubicación exacta de cada sucursal. Este análisis se completó con otro en el que calculamos qué oficinas habían desaparecido, cuáles eran nuevas o se mantenían."
+      ],
+      "en": [
+        "I downloaded data on every bank branch in Spain and carried out a geographical analysis to capture the impact of years of mergers and closures in the sector.",
+        "Using programming, we geolocated, mapped and verified the exact location of each branch. This analysis was complemented by another in which we calculated which branches had disappeared, which were new, and which remained open."
+      ]
+    },
+    "techniques": [
+      "análisis estadístico avanzado",
+      "geolocalización",
+      "limpieza y depuración de datos",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20220114/caixabank-caja-rural-banco-sacar-dinero/"
+    ]
+  },
+  {
+    "id": "a-tejero-archivo",
+    "year": 2021,
+    "month": 7,
+    "categories": [
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "La petición de indulto de Tejero por el 23-F: Maldita accede al archivo para consultar los informes que el Tribunal Supremo y la Fiscalía hicieron sobre él"
+      ],
+      "en": [
+        "Tejero's pardon request for the 23-F coup: Maldita accesses the archive to consult the reports made by the Supreme Court and the Prosecution"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "Una de las primeras veces que salí de la redacción fue porque me habían autorizado para consultar el archivo del Tribunal Supremo. Estaba buscando un informe de indulto al golpista Antonio Tejero, lo transcribí entero y luego hice un artículo. En aquel momento se había dictado la sentencia contra  indultos a los presos del procés."
+      ],
+      "en": [
+        "One of the first times I left the newsroom was because I had been authorised to consult the Supreme Court archive. I was looking for a pardon report on the coup leader Antonio Tejero, transcribed it in full and wrote an article. At that time, the ruling against pardons for the procés prisoners had just been handed down."
+      ]
+    },
+    "techniques": [
+      "acceso a archivos",
+      "documentación",
+      "transcripción",
+      "revisión legislativa"
+    ],
+    "links": [
+      "https://maldita.es/malditateexplica/20210709/peticion-indulto-tejero-23f-informes-tribunal-supremo-fiscalia/"
+    ]
+  },
+  {
+    "id": "a-navidad",
+    "year": 2020,
+    "month": 12,
+    "categories": [
+      "datos",
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "Cómo influye en el riesgo de contagio durante una comida familiar que seamos 6 o 10 personas"
+      ],
+      "en": [
+        "How the size of a family gathering — 6 or 10 people — affects the risk of contagion"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "El primer año de COVID-19 hubo un auge del periodismo visual y de datos. Me inspiré en artículos muy populares (como los de <a href=\"https://elpais.com/especiales/coronavirus-covid-19/un-salon-un-bar-y-una-clase-asi-contagia-el-coronavirus-en-el-aire/\" target=\"_blank\" rel=\"noopener\">El País</a> o el <a href=\"https://www.washingtonpost.com/graphics/2020/world/corona-simulator/\" target=\"_blank\" rel=\"noopener\">Washington Post</a>) para hacer un simulador de contagio en base a unos modelos científicos.",
+        "Hice unos gráficos interactivos en Flourish para visualizar la probabilidad de contagio por aerosoles según los metros cuadrados de la sala, la ventilación o el número de personas presentes."
+      ],
+      "en": [
+        "In the first year of COVID-19, data and visual journalism saw a surge. I was inspired by hugely popular pieces (such as those from <a href=\"https://elpais.com/especiales/coronavirus-covid-19/un-salon-un-bar-y-una-clase-asi-contagia-el-coronavirus-en-el-aire/\" target=\"_blank\" rel=\"noopener\">El País</a> and the <a href=\"https://www.washingtonpost.com/graphics/2020/world/corona-simulator/\" target=\"_blank\" rel=\"noopener\">Washington Post</a>) to create a contagion simulator based on scientific models.",
+        "I created interactive charts in Flourish to visualise the probability of airborne contagion based on the room's square footage, ventilation and the number of people present."
+      ]
+    },
+    "techniques": [
+      "visualización de datos",
+      "gráficos interactivos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20201209/como-influye-seis-diez-personas-reuniones-familiares-navidades/"
+    ]
+  },
+  {
+    "id": "a-policia",
+    "year": 2020,
+    "month": 11,
+    "categories": [
+      "verificacion",
+      "contexto"
+    ],
+    "titles": {
+      "es": [
+        "¿Puede la Policía entrar en tu casa durante el estado de alarma para comprobar si hay personas no convivientes?"
+      ],
+      "en": [
+        "Can the Police enter your home during a state of emergency to check for non-residents?"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "En lo peor de la pandemia  se aplicaban medidas como limitar el número de personas reunidas o no poder alejarse demasiado de casa. Ante el temor generalizado, era necesario verificar estos límites legales. Queríamos saber si la Policía podía entrar en tu casa para multarte.",
+        "Hablamos con expertos de distintas ramas del derecho y en resumen: es mejor no invitarles a entrar."
+      ],
+      "en": [
+        "At the height of the pandemic, measures such as limiting the number of people at gatherings and restricting how far you could travel from home were in force. Given widespread fear, it was necessary to verify these legal limits. We wanted to know whether the Police could enter your home to fine you.",
+        "We spoke with experts from different branches of law and the short answer is: it's better not to invite them in."
+      ]
+    },
+    "techniques": [
+      "revisión legislativa",
+      "fuentes humanas"
+    ],
+    "links": [
+      "https://maldita.es/malditateexplica/20201105/policia-entrar-casa-reuniones-seis-personas-autorizacion-judicial/"
+    ]
+  },
+  {
+    "id": "a-dni",
+    "year": 2019,
+    "month": 11,
+    "categories": [
+      "datos"
+    ],
+    "titles": {
+      "es": [
+        "Interior publica \"por error\" los DNI de más de 5.000 candidatos para las elecciones del 28-A: ¿cuáles son las consecuencias?"
+      ],
+      "en": [
+        "Interior Ministry accidentally publishes the ID numbers of more than 5,000 candidates for the 28-A elections: what are the consequences?"
+      ]
+    },
+    "paragraphs": {
+      "es": [
+        "En 2019 detecté y notifiqué una brecha de seguridad: el Ministerio del Interior había publicado por error los DNI completos de más de 5.000 candidatos a las elecciones generales.",
+        "Para evaluar el alcance y los riesgos para la privacidad de estas personas expuestas, utilicé el DNI y la fecha de nacimiento y localicé la sección censal exacta en la que estaban empadronados varios de ellos.",
+        "Además de analizar el impacto normativo sobre la protección de datos personales, contrasté las versiones de Indra e Interior para esclarecer la responsabilidad del incidente."
+      ],
+      "en": [
+        "In 2019 I detected and reported a security breach: the Ministry of the Interior had accidentally published the full ID numbers of more than 5,000 candidates standing in the general elections.",
+        "To assess the scope and privacy risks for those exposed, I used the ID numbers and dates of birth to locate the exact census section where several of them were registered.",
+        "In addition to analysing the regulatory impact on personal data protection, I cross-referenced the accounts of Indra and the Interior Ministry to establish responsibility for the incident."
+      ]
+    },
+    "techniques": [
+      "análisis de seguridad",
+      "análisis de privacidad",
+      "fuentes humanas",
+      "revisión legislativa",
+      "registros administrativos",
+      "visualización de datos"
+    ],
+    "links": [
+      "https://maldita.es/malditodato/20191128/interior-publica-por-error-los-dni-de-mas-de-5-000-candidatos-para-las-elecciones-del-28-a-peligros-y-consecuencias/"
+    ]
+  }
+]

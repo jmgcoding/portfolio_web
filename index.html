@@ -12,16 +12,19 @@
     />
     <link rel="stylesheet" href="style.css?v=2e11a1a" />
   </head>
-  <body>
-    <nav aria-label="Principal">
-      <ul class="nav-links">
-        <li>
-          <a href="#inicio" class="active" aria-current="page"
-            >Bio y contacto</a
-          >
-        </li>
-        <li><a href="trabajo.html">Trabajos</a></li>
-      </ul>
+  <body data-i18n-title="page.title.index">
+    <nav aria-label="Principal" data-i18n-aria="nav.aria">
+      <div class="nav-inner">
+        <ul class="nav-links">
+          <li>
+            <a href="#inicio" class="active" aria-current="page" data-i18n="nav.bio"
+              >Bio y contacto</a
+            >
+          </li>
+          <li><a href="trabajo.html" data-i18n="nav.work">Trabajos</a></li>
+        </ul>
+        <button id="lang-toggle" class="lang-toggle" type="button"><span class="lang-option active">ES</span><span class="lang-separator">|</span><span class="lang-option">EN</span></button>
+      </div>
     </nav>
 
     <section id="inicio">
@@ -36,42 +39,38 @@
             </a>
           </div>
 
-          <p class="hero-bio">
-            Soy periodista de datos e investigador digital. Mi trabajo consiste
-            en el tratamiento informativo con metodología y técnicas
-            computacionales.
-          </p>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">Periodista de datos · Investigación digital</p>
 
-          <p class="hero-bio">
+          <p class="hero-bio" data-i18n="bio.1">
             En los últimos años me he enfocado en el análisis de la actualidad
             política, la desinformación en redes y el rastreo de huellas
             digitales mediante fuentes abiertas (OSINT).
           </p>
 
-          <p class="hero-bio">
-            Busco prevenir el engaño y la manipulación analizando narrativas,
-            rastreando su origen y diseñando estrategias de neutralización.
+          <p class="hero-bio" data-i18n="bio.2">
+            Busco prevenir y combatir el engaño, el fraude y la manipulación analizando sus narrativas,
+            atribuyendo el origen de estas amenazas y diseñando estrategias orientadas a neutralizarlas.
           </p>
 
-          <p class="hero-bio">
+          <p class="hero-bio" data-i18n="bio.3">
             Vivo en España y estoy abierto a proyectos freelance.
           </p>
 
           <div class="methodology-brief">
-            <p class="method-intro"><strong>Competencias:</strong></p>
+            <p class="method-intro"><strong data-i18n="skills.heading">Competencias:</strong></p>
             <ol class="method-list-compact">
-              <li>
+              <li data-i18n="skills.1">
                 Elaborar historias basadas en análisis técnicos, cuidando la
                 redacción y el diseño narrativo y visual
               </li>
-              <li>
+              <li data-i18n="skills.2">
                 Gestionar grandes volúmenes de información: adquisición,
                 inspección, depuración y visualización
               </li>
-              <li>
+              <li data-i18n="skills.3">
                 Verificar mediante fuentes digitales, documentales y humanas
               </li>
-              <li>Respuesta rápida ante incidentes en entornos de crisis</li>
+              <li data-i18n="skills.4">Respuesta rápida ante incidentes en entornos de crisis</li>
             </ol>
           </div>
         </div>
@@ -79,7 +78,7 @@
         <div class="hero-right">
           <div class="contact-sidebar">
             <div class="contact-block-sidebar">
-              <p class="method-intro"><strong>Escríbeme:</strong></p>
+              <p class="method-intro"><strong data-i18n="contact.heading">Escríbeme:</strong></p>
 
               <form
                 class="contact-form-sidebar"
@@ -91,15 +90,17 @@
                   type="email"
                   name="email"
                   placeholder="tu@email.com"
+                  data-i18n-placeholder="contact.placeholder.email"
                   required
                 />
                 <textarea
                   name="mensaje"
                   placeholder="¿En qué consiste el proyecto o investigación?"
+                  data-i18n-placeholder="contact.placeholder.message"
                   rows="3"
                   required
                 ></textarea>
-                <button type="submit" class="btn-primary btn-small">
+                <button type="submit" class="btn-primary btn-small" data-i18n="contact.submit">
                   Enviar mensaje
                 </button>
               </form>
@@ -110,5 +111,6 @@
         </div>
       </div>
     </section>
+    <script src="lang.js"></script>
   </body>
 </html>
