@@ -12,7 +12,7 @@ const translations = {
     'hero.subtitle': 'Periodista de datos · Investigación digital',
 
     'bio.1': 'En los últimos años me he enfocado en el análisis de la actualidad política, la desinformación en redes y el rastreo de huellas digitales mediante fuentes abiertas (OSINT).',
-    'bio.2': 'Busco prevenir y combatir el engaño, el fraude y la manipulación analizando sus narrativas, atribuyendo el origen de estas amenazas y diseñando estrategias orientadas a neutralizarlas.',
+    'bio.2': 'Busco prevenir y combatir el engaño, el fraude y la manipulación atribuyendo el origen de estas amenazas, analizando sus narrativas y diseñando estrategias orientadas a neutralizarlas.',
     'bio.3': 'Vivo en España y estoy abierto a proyectos freelance.',
 
     'skills.heading': 'Competencias:',
@@ -85,7 +85,7 @@ const translations = {
     'hero.subtitle': 'Data journalist · Digital investigation',
 
     'bio.1': 'Over the last few years I\'ve focused on the analysis of political news, disinformation on social media and the tracing of digital footprints through open sources (OSINT).',
-    'bio.2': 'I work to prevent and counter deception, fraud and manipulation by analysing their narratives, attributing the origin of these threats and designing strategies to neutralise them.',
+    'bio.2': 'I work to prevent and counter deception, fraud and manipulation by attributing the origin of these threats, analysing their narratives and designing strategies to neutralise them.',
     'bio.3': 'I\'m based in Spain and open to freelance projects.',
 
     'skills.heading': 'Skills:',
