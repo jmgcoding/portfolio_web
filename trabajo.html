@@ -173,7 +173,10 @@
     // Añadir técnicas
     const techniques = document.createElement('p');
     techniques.className = 'panel-techniques';
-    techniques.textContent = article.techniques.join(', ');
+    const techniquesArray = typeof article.techniques === 'object' && !Array.isArray(article.techniques) 
+      ? (article.techniques[lang] || article.techniques['es']) 
+      : article.techniques;
+    techniques.textContent = techniquesArray.join(', ');
     panelBottom.appendChild(techniques);
 
     // Añadir enlaces

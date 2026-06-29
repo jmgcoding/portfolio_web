@@ -24,12 +24,20 @@
         "We found many AI-generated videos with alarm messages targeting pensioners that were ranking high in pension-related content searches. I researched these YouTube channels and found that several were coordinated, based on metadata analysis."
       ]
     },
-    "techniques": [
-      "rastreo en redes sociales",
-      "análisis de datos",
-      "OSINT",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "rastreo en redes sociales",
+        "análisis de datos",
+        "OSINT",
+        "visualización de datos"
+      ],
+      "en": [
+        "social media monitoring",
+        "data analysis",
+        "OSINT",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditobulo/20250908/alarma-pensionista-youtube-canales/"
     ]
@@ -60,12 +68,20 @@
         "I cross-referenced the geospatial data from the fires with municipal planning documents and cadastral plots, as well as the boundaries of the Parque Natural del Estrecho. I checked the nature of the affected land and spoke with the local council, developers and urban planning experts."
       ]
     },
-    "techniques": [
-      "geolocalización",
-      "OSINT",
-      "fuentes humanas",
-      "revisión legislativa"
-    ],
+    "techniques": {
+      "es": [
+        "geolocalización",
+        "OSINT",
+        "fuentes humanas",
+        "revisión legislativa"
+      ],
+      "en": [
+        "geolocation",
+        "OSINT",
+        "human sources",
+        "legislative review"
+      ]
+    },
     "links": [
       "https://maldita.es/malditobulo/20250822/incendio-tarifa-proyectos-urbanisticos/"
     ]
@@ -95,10 +111,16 @@
         "I brought the topic to light by analysing technical reports and interviewing various experts to explain the different types and the reasons behind the slow uptake in Spain."
       ]
     },
-    "techniques": [
-      "revisión legislativa",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "revisión legislativa",
+        "fuentes humanas"
+      ],
+      "en": [
+        "legislative review",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/clima/20250703/agrovoltaica-placas-solares-agricultura-espana/"
     ]
@@ -127,12 +149,20 @@
         "This video was circulating without any context, attributed to various countries. To visually verify its location, I cross-referenced images from a specialist bridge blog from 2009 and used satellite imagery from Chinese provider Baidu to find the exact filming location. Through a VPN, I tracked down the original video on Douyin (the Chinese version of TikTok)."
       ]
     },
-    "techniques": [
-      "rastreo en redes sociales",
-      "verificación visual",
-      "hemeroteca digital",
-      "OSINT"
-    ],
+    "techniques": {
+      "es": [
+        "rastreo en redes sociales",
+        "verificación visual",
+        "hemeroteca digital",
+        "OSINT"
+      ],
+      "en": [
+        "social media monitoring",
+        "visual verification",
+        "digital newspaper archive",
+        "OSINT"
+      ]
+    },
     "links": [
       "https://maldita.es/malditobulo/20250523/montana-placas-solares-china/"
     ]
@@ -163,12 +193,20 @@
         "I used historical satellite imagery and project archives, reviewed agricultural administrative records, and traced the entire route of the power lines from the plant to the substation."
       ]
     },
-    "techniques": [
-      "OSINT",
-      "verificación visual",
-      "revisión legislativa",
-      "rastreo en redes sociales"
-    ],
+    "techniques": {
+      "es": [
+        "OSINT",
+        "verificación visual",
+        "revisión legislativa",
+        "rastreo en redes sociales"
+      ],
+      "en": [
+        "OSINT",
+        "visual verification",
+        "legislative review",
+        "social media monitoring"
+      ]
+    },
     "links": [
       "https://maldita.es/malditobulo/20251028/fotovoltaica-olivos-granada-caceres/"
     ]
@@ -201,13 +239,22 @@
         "I also analysed the network of satellite Telegram channels by downloading their messages to measure replication rates and diffusion timings. I identified communities among the channels and analysed the funding methods of some of them."
       ]
     },
-    "techniques": [
-      "rastreo en redes sociales",
-      "web scraping",
-      "análisis de datos",
-      "procesamiento de lenguaje natural",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "rastreo en redes sociales",
+        "web scraping",
+        "análisis de datos",
+        "procesamiento de lenguaje natural",
+        "visualización de datos"
+      ],
+      "en": [
+        "social media monitoring",
+        "web scraping",
+        "data analysis",
+        "natural language processing",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/investigaciones/20250530/pravda-news-espanol-espana/",
       "https://maldita.es/investigaciones/20250710/canales-telegram-pravda/"
@@ -237,10 +284,16 @@
         "I traced the origin and reach of different disinformation narratives about the blackout of 28 April 2025 on social media. I found that the earliest appearance of some of them on social networks led back to the Chinese channel CGTN."
       ]
     },
-    "techniques": [
-      "rastreo en redes sociales",
-      "OSINT"
-    ],
+    "techniques": {
+      "es": [
+        "rastreo en redes sociales",
+        "OSINT"
+      ],
+      "en": [
+        "social media monitoring",
+        "OSINT"
+      ]
+    },
     "links": [
       "https://maldita.es/malditobulo/20250507/apagon-internacional-desinformacion/"
     ]
@@ -268,10 +321,16 @@
         "Why must fresh potatoes display their country of origin on the label, but a bag of crisps doesn't have to? I studied European regulations and consulted several experts to clarify which foods are required to declare their origin. When it comes to imported and processed foods, origin also involves a customs calculation."
       ]
     },
-    "techniques": [
-      "revisión legislativa",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "revisión legislativa",
+        "fuentes humanas"
+      ],
+      "en": [
+        "legislative review",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/alimentacion/20250415/pais-origen-alimentos-obligatorio/"
     ]
@@ -300,12 +359,20 @@
         "I traced the origin of hoaxes claiming that world elites want to ban meat consumption. The investigation led to suspicious websites whose content is amplified on social media by high-reach accounts in many languages. These accounts jump between topics (such as migration or LGBTQ+ policies) to generate polarisation and disinformation in digital discourse."
       ]
     },
-    "techniques": [
-      "rastreo en redes sociales",
-      "mapeo de difusión",
-      "monitoreo de narrativas",
-      "análisis de operaciones de influencia"
-    ],
+    "techniques": {
+      "es": [
+        "rastreo en redes sociales",
+        "mapeo de difusión",
+        "monitoreo de narrativas",
+        "análisis de operaciones de influencia"
+      ],
+      "en": [
+        "social media monitoring",
+        "diffusion mapping",
+        "narrative monitoring",
+        "influence operations analysis"
+      ]
+    },
     "links": [
       "https://maldita.es/malditobulo/20250328/oms-carne-guerra-agricultura-desinformacion/"
     ]
@@ -335,10 +402,16 @@
         "I looked at many calendars, compared them and consulted numerous experts. The conclusion: there is no official definition of seasonal produce, and there is a great deal of debate on the subject."
       ]
     },
-    "techniques": [
-      "revisión legislativa",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "revisión legislativa",
+        "fuentes humanas"
+      ],
+      "en": [
+        "legislative review",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/malditateexplica/20250218/frutas-verduras-temporada-significado/"
     ]
@@ -366,10 +439,16 @@
         "There are many seasonal consumption calendars online, but few include data and most don't explain their methodology. I analysed and processed the Sowing, Harvesting and Marketing Calendar from Spain's Ministry of Agriculture through programming to create informative charts by product and province. We also produced a ranking of the crops most commonly grown in greenhouses."
       ]
     },
-    "techniques": [
-      "análisis estadístico avanzado",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "análisis estadístico avanzado",
+        "visualización de datos"
+      ],
+      "en": [
+        "advanced statistical analysis",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20250218/consulta-frutas-verduras-temporada/"
     ]
@@ -398,11 +477,18 @@
         "After years of covering disinformation about elections that question the integrity of the process and try to influence the vote, I attempted to design a typology or classification of this type of content."
       ]
     },
-    "techniques": [
-      "clasificación y categorización",
-      "análisis de datos",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "clasificación y categorización",
+        "análisis de datos",
+        "visualización de datos"
+      ],
+      "en": [
+        "classification and categorization",
+        "data analysis",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20240703/integridad-electoral-elecciones-europeas-efcsn/"
     ]
@@ -439,12 +525,20 @@
         "I also wanted to provide solid context and reviewed the rulings of the Electoral Committees and consulted subject matter experts to make clear that errors are ordinary scenarios and correctable through the system's safeguards."
       ]
     },
-    "techniques": [
-      "análisis de datos",
-      "detección de anomalías",
-      "revisión legislativa",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "análisis de datos",
+        "detección de anomalías",
+        "revisión legislativa",
+        "fuentes humanas"
+      ],
+      "en": [
+        "data analysis",
+        "anomaly detection",
+        "legislative review",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/malditateexplica/20240614/recuento-mesas-electorales-anomalias-europeas/",
       "https://maldita.es/malditateexplica/20240617/errores-actas-mesas-electorales/"
@@ -474,11 +568,18 @@
         "To fact-check Vox's campaign claim that PP and PSOE always vote the same way in Europe, I analysed the complex parliamentary activity. I used data from <a href=\"https://data.europa.eu/en/publications/use-cases/parltrack\" target=\"_blank\" rel=\"noopener\">Parltrack</a> to process all votes of the legislative term. This allowed me to map the voting convergences of Spanish MEPs and their respective groups."
       ]
     },
-    "techniques": [
-      "análisis estadístico avanzado",
-      "visualización de datos",
-      "análisis de datos"
-    ],
+    "techniques": {
+      "es": [
+        "análisis estadístico avanzado",
+        "visualización de datos",
+        "análisis de datos"
+      ],
+      "en": [
+        "advanced statistical analysis",
+        "data visualization",
+        "data analysis"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20240606/votaciones-diputados-espanoles-parlamento-europeo/"
     ]
@@ -511,12 +612,20 @@
         "In addition to explaining the most common reasons for getting out of polling station duty, we also detailed the limitations of the data: they acknowledged having incomplete national figures, as it depended on local councils and the more than 300 electoral boards."
       ]
     },
-    "techniques": [
-      "solicitudes de transparencia",
-      "análisis de datos",
-      "revisión legislativa",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "solicitudes de transparencia",
+        "análisis de datos",
+        "revisión legislativa",
+        "visualización de datos"
+      ],
+      "en": [
+        "transparency requests",
+        "data analysis",
+        "legislative review",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20240516/motivos-exclusion-mesas-electorales-2023/"
     ]
@@ -546,12 +655,20 @@
         "This article exemplifies years of work. I covered the great majority of regional, national and European electoral processes from December 2018 to October 2025. The <a href=\"https://www.elmundo.es/espana/2018/12/08/5c0ac8e121efa09c2f8b45f9.html\" target=\"_blank\" rel=\"noopener\">2018 Andalusian elections in which Vox entered the institutions</a> were the first I covered as a data journalist."
       ]
     },
-    "techniques": [
-      "análisis de datos",
-      "cobertura electoral",
-      "visualización de datos",
-      "mapas interactivos"
-    ],
+    "techniques": {
+      "es": [
+        "análisis de datos",
+        "cobertura electoral",
+        "visualización de datos",
+        "mapas interactivos"
+      ],
+      "en": [
+        "data analysis",
+        "electoral coverage",
+        "data visualization",
+        "interactive maps"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20240422/voto-rural-urbano-autonomicas-pais-vasco/"
     ]
@@ -583,13 +700,22 @@
         "It required extensive archival and press research to review historical candidacies and identify the key moments of each political period. The challenge was condensing it into a brief article format with clear charts showing these evolutions."
       ]
     },
-    "techniques": [
-      "hemeroteca digital",
-      "documentación",
-      "visualización de datos",
-      "análisis de datos",
-      "cobertura electoral"
-    ],
+    "techniques": {
+      "es": [
+        "hemeroteca digital",
+        "documentación",
+        "visualización de datos",
+        "análisis de datos",
+        "cobertura electoral"
+      ],
+      "en": [
+        "digital newspaper archive",
+        "documentation",
+        "data visualization",
+        "data analysis",
+        "electoral coverage"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20240417/evolucion-izquierda-abertzale-pais-vasco-autonomicas/",
       "https://maldita.es/malditodato/20240508/evolucion-voto-independentista-catalunya/"
@@ -620,13 +746,22 @@
         "I extracted and transformed the PDF data and analysed the disappearance of parties, registration peaks, and acronyms that were never legalised. I also reviewed post-Franco newspaper archives on the legalisation of parties. An interesting exercise in historical memory."
       ]
     },
-    "techniques": [
-      "limpieza y depuración de datos",
-      "solicitudes de transparencia",
-      "hemeroteca digital",
-      "fuentes humanas",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "limpieza y depuración de datos",
+        "solicitudes de transparencia",
+        "hemeroteca digital",
+        "fuentes humanas",
+        "visualización de datos"
+      ],
+      "en": [
+        "data cleaning",
+        "transparency requests",
+        "digital newspaper archive",
+        "human sources",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20240229/partidos-politicos-registro-ministerio-interior/"
     ]
@@ -654,12 +789,20 @@
         "I scraped and analysed every film screened in Spanish cinemas in 2023 to go beyond the Goya awards spotlight. The aim was to make the industry's full recognition visible through charts, brief texts and a rigorous methodology."
       ]
     },
-    "techniques": [
-      "web scraping",
-      "análisis estadístico avanzado",
-      "análisis de datos",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "web scraping",
+        "análisis estadístico avanzado",
+        "análisis de datos",
+        "visualización de datos"
+      ],
+      "en": [
+        "web scraping",
+        "advanced statistical analysis",
+        "data analysis",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20240209/cine-espanol-2023-premios-goya/"
     ]
@@ -687,11 +830,18 @@
         "I wanted to statistically describe the exact day of summer when Spanish cities empty the most due to holidays. To do this, I used anonymised mobility microdata from the Ministry of Transport and cross-referenced daily overnight stays with usual residential averages and holiday movements."
       ]
     },
-    "techniques": [
-      "análisis de datos",
-      "visualización de datos",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "análisis de datos",
+        "visualización de datos",
+        "fuentes humanas"
+      ],
+      "en": [
+        "data analysis",
+        "data visualization",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20230810/dia-agosto-viajes-ciudades-vacias/"
     ]
@@ -724,11 +874,18 @@
         "We measured its reach on social media, cross-checked the numerous responses from her press team and reconstructed her cycling route through the city using visual verification."
       ]
     },
-    "techniques": [
-      "rastreo en redes sociales",
-      "verificación visual",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "rastreo en redes sociales",
+        "verificación visual",
+        "fuentes humanas"
+      ],
+      "en": [
+        "social media monitoring",
+        "visual verification",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/clima/20230710/teresa-ribera-falcon-valladolid/",
       "https://maldita.es/malditobulo/20230713/teresa-ribera-falcon-bici-valladolid/"
@@ -763,12 +920,20 @@
         "We also went to Parliament to speak with some MPs to add more context. It was an exercise in reporting and public data analysis — data rarely explored due to its complex format, but which offers a great source of information."
       ]
     },
-    "techniques": [
-      "análisis de datos",
-      "solicitudes de transparencia",
-      "visualización de datos",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "análisis de datos",
+        "solicitudes de transparencia",
+        "visualización de datos",
+        "fuentes humanas"
+      ],
+      "en": [
+        "data analysis",
+        "transparency requests",
+        "data visualization",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20230427/spam-parlamentario-congreso-preguntas/",
       "https://maldita.es/malditodato/20230428/congreso-preguntas-parlamentarias-gobierno-respuestas/"
@@ -802,11 +967,18 @@
         "This conspiracy also tied in with other stories, such as the alleged Godzilla egg found on a Japanese beach which turned out to be a buoy, or Japan having recently counted its coastline and doubled the number of islands in the archipelago."
       ]
     },
-    "techniques": [
-      "rastreo en redes sociales",
-      "rastreo de origen",
-      "análisis de teorías conspirativas"
-    ],
+    "techniques": {
+      "es": [
+        "rastreo en redes sociales",
+        "rastreo de origen",
+        "análisis de teorías conspirativas"
+      ],
+      "en": [
+        "social media monitoring",
+        "origin tracing",
+        "conspiracy theory analysis"
+      ]
+    },
     "links": [
       "https://maldita.es/malditobulo/20230306/desinformaciones-dinosaurios-islas-japon/"
     ]
@@ -837,12 +1009,20 @@
         "I did the data cleaning and wrangling work: scraping hundreds of PDF pages, detecting errors, calculating ambulance response times…"
       ]
     },
-    "techniques": [
-      "scraping de PDF",
-      "análisis estadístico avanzado",
-      "limpieza y depuración de datos",
-      "diseño metodológico"
-    ],
+    "techniques": {
+      "es": [
+        "scraping de PDF",
+        "análisis estadístico avanzado",
+        "limpieza y depuración de datos",
+        "diseño metodológico"
+      ],
+      "en": [
+        "PDF scraping",
+        "advanced statistical analysis",
+        "data cleaning",
+        "methodological design"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20220729/ambulancias-madrid-violencia-genero-agresiones-verano/"
     ]
@@ -875,14 +1055,24 @@
         "Complex drug classification work was required, and we spoke with industry sources and the Civil Guard to understand the context of these disappearances. They are often counterfeited or sold on the black market."
       ]
     },
-    "techniques": [
-      "visualización de datos",
-      "scraping de PDF",
-      "clasificación y categorización",
-      "investigación documental",
-      "fuentes humanas",
-      "solicitudes de transparencia"
-    ],
+    "techniques": {
+      "es": [
+        "visualización de datos",
+        "scraping de PDF",
+        "clasificación y categorización",
+        "investigación documental",
+        "fuentes humanas",
+        "solicitudes de transparencia"
+      ],
+      "en": [
+        "data visualization",
+        "PDF scraping",
+        "classification and categorization",
+        "documentary research",
+        "human sources",
+        "transparency requests"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20220705/medicamentos-paradero-desconocido-alertas-robo-perdida/"
     ]
@@ -912,12 +1102,20 @@
         "I provided the technical support to process millions of records with Python and designed a scrollytelling piece in Flourish to condense all the potential of this data."
       ]
     },
-    "techniques": [
-      "visualización de datos",
-      "análisis estadístico avanzado",
-      "diseño scrollytelling",
-      "diseño metodológico"
-    ],
+    "techniques": {
+      "es": [
+        "visualización de datos",
+        "análisis estadístico avanzado",
+        "diseño scrollytelling",
+        "diseño metodológico"
+      ],
+      "en": [
+        "data visualization",
+        "advanced statistical analysis",
+        "scrollytelling design",
+        "methodological design"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20220324/destino-espana/"
     ]
@@ -947,12 +1145,20 @@
         "Using programming, we geolocated, mapped and verified the exact location of each branch. This analysis was complemented by another in which we calculated which branches had disappeared, which were new, and which remained open."
       ]
     },
-    "techniques": [
-      "análisis estadístico avanzado",
-      "geolocalización",
-      "limpieza y depuración de datos",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "análisis estadístico avanzado",
+        "geolocalización",
+        "limpieza y depuración de datos",
+        "visualización de datos"
+      ],
+      "en": [
+        "advanced statistical analysis",
+        "geolocation",
+        "data cleaning",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20220114/caixabank-caja-rural-banco-sacar-dinero/"
     ]
@@ -980,12 +1186,20 @@
         "One of the first times I left the newsroom was because I had been authorised to consult the Supreme Court archive. I was looking for a pardon report on the coup leader Antonio Tejero, transcribed it in full and wrote an article. At that time, the ruling against pardons for the procés prisoners had just been handed down."
       ]
     },
-    "techniques": [
-      "acceso a archivos",
-      "documentación",
-      "transcripción",
-      "revisión legislativa"
-    ],
+    "techniques": {
+      "es": [
+        "acceso a archivos",
+        "documentación",
+        "transcripción",
+        "revisión legislativa"
+      ],
+      "en": [
+        "file access",
+        "documentation",
+        "transcription",
+        "legislative review"
+      ]
+    },
     "links": [
       "https://maldita.es/malditateexplica/20210709/peticion-indulto-tejero-23f-informes-tribunal-supremo-fiscalia/"
     ]
@@ -1016,10 +1230,16 @@
         "I created interactive charts in Flourish to visualise the probability of airborne contagion based on the room's square footage, ventilation and the number of people present."
       ]
     },
-    "techniques": [
-      "visualización de datos",
-      "gráficos interactivos"
-    ],
+    "techniques": {
+      "es": [
+        "visualización de datos",
+        "gráficos interactivos"
+      ],
+      "en": [
+        "data visualization",
+        "interactive graphics"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20201209/como-influye-seis-diez-personas-reuniones-familiares-navidades/"
     ]
@@ -1050,10 +1270,16 @@
         "We spoke with experts from different branches of law and the short answer is: it's better not to invite them in."
       ]
     },
-    "techniques": [
-      "revisión legislativa",
-      "fuentes humanas"
-    ],
+    "techniques": {
+      "es": [
+        "revisión legislativa",
+        "fuentes humanas"
+      ],
+      "en": [
+        "legislative review",
+        "human sources"
+      ]
+    },
     "links": [
       "https://maldita.es/malditateexplica/20201105/policia-entrar-casa-reuniones-seis-personas-autorizacion-judicial/"
     ]
@@ -1085,14 +1311,24 @@
         "In addition to analysing the regulatory impact on personal data protection, I cross-referenced the accounts of Indra and the Interior Ministry to establish responsibility for the incident."
       ]
     },
-    "techniques": [
-      "análisis de seguridad",
-      "análisis de privacidad",
-      "fuentes humanas",
-      "revisión legislativa",
-      "registros administrativos",
-      "visualización de datos"
-    ],
+    "techniques": {
+      "es": [
+        "análisis de seguridad",
+        "análisis de privacidad",
+        "fuentes humanas",
+        "revisión legislativa",
+        "registros administrativos",
+        "visualización de datos"
+      ],
+      "en": [
+        "security analysis",
+        "privacy analysis",
+        "human sources",
+        "legislative review",
+        "administrative records",
+        "data visualization"
+      ]
+    },
     "links": [
       "https://maldita.es/malditodato/20191128/interior-publica-por-error-los-dni-de-mas-de-5-000-candidatos-para-las-elecciones-del-28-a-peligros-y-consecuencias/"
     ]
